@@ -1,0 +1,241 @@
+/**
+ * Footer Style Sheet
+ * Callbox
+ *
+ * Copyright (c) 2014. by Way2CU
+ * Author: Khalid Sawalhi
+ */
+
+footer {
+	overflow: hidden;
+	position: relative;
+}
+
+footer:before {
+	display: block;
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200%;
+	right: -50%;
+	top: -115px;
+	content: ' ';
+	transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+footer div.wrap.footer_image {
+	background-image: url(../images/macbook-mockup.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 600px;
+}
+
+footer div.wrap.footer_image:after {
+	display: block;
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200%;
+	right: -50%;
+	top: 490px;
+	content: ' ';
+	transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo {
+	display: block;
+	width: 335px;
+	margin-left: -166px;
+
+	position: absolute;
+	left: 50%;
+	top: 180px;
+
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+
+	text-align: center;
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo h5 {
+	font-size: 1.7em;
+	color: #3397da;
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo a {
+	display: inline-block;
+	background-color: #3397da;
+
+	padding: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin: 0px;
+	margin-bottom: 23px;
+
+	border: none;
+	border-radius: 2px;
+
+	color: white;
+	font-size: 1.4em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo a:hover {
+	background-color: #004265;
+}
+
+footer div.wrap.white{
+	background-color: white;
+}
+
+footer div.images{
+	display: block;
+	text-align: center;
+}
+
+footer div.images img {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer div.wrap.vector{
+	background-image: url(../images/footer-vector.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 880px;
+}
+
+div.wrap.vector div.inner_wrap {
+	height: 880px;
+}
+
+footer nav#main_footer {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 590px;
+	left: 50%;
+	margin-left: -388px;
+}
+
+footer nav#main_footer a {
+	display: inline-block;
+
+	margin-left: 1px;
+	margin-right: 1px;
+	padding: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	border-radius: 3px;
+
+	color: white;
+	font-size: 1.1em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+nav#main_footer a.active {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav#main_footer a:hover {
+	background-color: white;
+	color: #33485D;
+	border-radius: 3px;
+}
+
+nav#main_footer a:selected {
+	color: #5F5F5F;	
+}
+
+footer div.inner_wrap div.links {
+	display: block;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -171.5px;
+	top: 650px;
+}
+
+footer div.inner_wrap div.links a:first-child{
+	display: inline-block;
+	background-color: #3397DA;
+	margin: 5px;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #3397DA;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+footer div.inner_wrap div.links a{
+	display: inline-block;
+
+	margin: 5px;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border: 2px solid #3397DA;
+	border-radius: 5px;
+	background-color: white;
+
+	color: #3397DA;
+	font-size: 1.3em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+footer div.inner_wrap div.links a:first-child:hover {
+	background-color: #004265;
+	color: white;
+}
+
+footer div.inner_wrap div.links a:hover{
+	background-color: #004265;
+	border: 2px solid white;
+	color: white;
+}
+
+footer div.inner_wrap div.links img{
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer div.inner_wrap p{
+	display: block;
+	width: 700px;
+	position: absolute;
+	top: 800px;
+	left: 50%;
+
+	margin-left: -350px;
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	direction: ltr;
+}
+
+footer div.inner_wrap p a{
+	color: #3397DA;
+	text-decoration: none;
+}

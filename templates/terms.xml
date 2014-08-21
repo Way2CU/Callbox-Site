@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" eval="src"/>
+			<cms:collection include="dialog,animation_chain"/>
+			<link
+				href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,400italic"
+				rel="stylesheet"
+				type="text/css"
+			/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" eval="src"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" eval="class">
+			<cms:template file="parts/header.xml"/>
+			<div id="content">
+				<div class="wrap">
+					<cms:module
+							name="articles"
+							action="show"
+							text_id="terms"
+							template="parts/info_article.xml"
+						/>
+				</div>
+			</div>
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>

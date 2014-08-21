@@ -1,7 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/section.dtd">
 <document>
 	<section name="home">
-		<language name="all" file="home.xml" />
+		<language name="all">
+			<action name="_default" file="home.xml"/>
+		</language>
+	</section>
+	<section name="pricing">
+		<language name="all">
+			<action name="_default" file="pricing.xml"/>
+		</language>
+	</section>
+	<section name="features">
+		<language name="all">
+			<action name="_default" file="features.xml"/>
+		</language>
+	</section>
+	<section name="contact">
+		<language name="all">
+			<action name="_default" file="contact_us.xml"/>
+		</language>
+	</section>
+	<section name="terms">
+		<language name="all">
+			<action name="_default" file="terms.xml"/>
+		</language>
+	</section>
+	<section name="privacy">
+		<language name="all">
+			<action name="_default" file="privacy.xml"/>
+		</language>
+	</section>
+	<section name="demo">
+		<language name="all">
+			<action name="_default" file="demo.xml"/>
+		</language>
 	</section>
 </document>

@@ -1,0 +1,437 @@
+/**
+ * Header Mobile Style Sheet
+ * Callbox 
+ *
+ * Copyright (c) 2014. by Way2CU
+ * Author: Khalid Sawalhi
+ */
+
+header {
+	display: block;
+	overflow: hidden;
+	position: relative;
+
+	padding-top: 60px;
+
+	background-image: url(../images/heaer-background-2.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header div#top_menu {
+	background-color:#33485D;
+}
+
+header div#top_menu.transparent {
+	background-color: rgba(51, 72, 93, 0);
+}
+
+header div.inner_wrap.menu {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header div.inner_wrap.top_home{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+header div.inner_wrap.menu {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+
+header div.inner_wrap div.menu img {
+	padding-top: 20px;
+}
+
+
+/**
+* Main Menu
+**/
+
+ul#language_selector {
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 5px;
+	right: 150px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+body.rtl ul#language_selector {
+	right: auto;
+	left: 150px;
+}
+
+ul#language_selector li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	margin-right: 5px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+ul#language_selector li a {
+	display: block;
+	width: 17px;
+	height: 13px;	
+}
+
+ul#language_selector li.en { 
+	background-image: url(../../modules/country_list/images/4x3/us.svg);
+}
+
+ul#language_selector li.he { 
+	background-image: url(../../modules/country_list/images/4x3/il.svg);
+}
+
+ul#language_selector li.en a:hover {
+	background-color: transparent;
+	color: #898A8F;
+}
+
+ul#language_selector li.he a:hover {
+	background-color: transparent;
+	color: #898A8F;
+}
+
+header a.phone_number {
+	position: absolute;
+	text-decoration: none;
+	background-image: url(../images/icon-phone.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 24px;
+	padding-left: 29px;
+	right: 10px;
+	top: 31px;
+	color: white;
+	font-size: 1.5em;
+}
+
+header .phone_number:hover {
+	background-color:#33485D;
+	color: white;
+}
+
+body.rtl header a.phone_number {
+	background-image: url(../images/icon-phone.svg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 24px;
+	padding-right: 29px;
+	right: auto;
+	left: 0;
+	top: 31px;
+	color: white;
+	font-size: 1.5em;
+}
+
+
+#header_cta {
+	background-image: url(/images/slider_01_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-bottom: 10px solid #333333;
+}
+
+div#message {
+	color: white;
+	font-size: 3.4em;
+	text-shadow: 1px 0 7px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.1em;
+}
+
+div.buttons {
+	text-align: center;
+	margin-top: 122px;
+}
+
+div.buttons a {
+	color: #0084C7;
+	background-color: white;
+	font-size: 1.5em;
+	padding: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 5px;
+	text-decoration: none;
+	border: 1px solid #EEEBEB;
+	border-radius: 5px;
+	transition: 0.3s all;
+}
+
+div.buttons a:hover {
+	background-color: #37BE72;
+	color: white;
+
+}
+
+
+#pc_image img {
+	height: 385px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/**
+* Info Boxes
+**/
+
+#info {
+	text-align: center;
+}
+
+#info span {
+	font-size: 2.3em;
+}
+
+#info ul {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+#info ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	font-size: 1.6em;
+	padding-top: 200px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#info ul li:nth-of-type(1) {
+	background-image: url(/images/icon_cb_01_marketing.svg);
+}
+
+#info ul li:nth-of-type(2) {
+	background-image: url(/images/icon_cb_02_call.svg);
+}
+
+#info ul li:nth-of-type(3) {
+	background-image: url(/images/icon_cb_03_metrics.svg);
+}
+
+#info ul li:nth-of-type(4) {
+	background-image: url(/images/icon_cb_04_insights.svg);
+}
+
+
+header div.inner_wrap.top_home h1 {
+	display: block;
+	font-size: 1.7em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+header div.inner_wrap.top_home h2 {
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+
+	color:white;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+}
+
+header div.inner_wrap.top_home div.links{
+	display: block;
+	text-align: center;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header div.inner_wrap.top_home div.links a{
+	display: inline-block;
+	min-width: 70%;
+
+	margin: 5px;
+	padding: 8px;
+
+	border: 2px solid #3397DA;
+	border-radius: 5px;
+	background-color: #3397DA;
+
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+header div.inner_wrap.top_home div.links a:hover{
+	background-color: white;
+	color: #3397DA;
+}
+
+
+header div.inner_wrap.top_home div.links a:last-child{
+	background-color: white;
+	color: #3397DA;
+}
+
+body.ltr header div.inner_wrap.top_home div.links a:last-child {
+	width: 140px;
+}
+
+header div.inner_wrap.top_home div.links a:last-child:hover{
+	color: white;
+	background-color: #3397DA;
+}
+
+header div.inner_wrap.top_home img{
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header div.inner_wrap.top_home:after {
+	display: block;
+	position: absolute;
+	background-color: #3397DA;
+	height: 130px;
+	width: 200%;
+	right: -50%;
+	top: calc(100% - 50px);
+	content: ' ';
+	z-index: 0;
+	transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+}
+
+.mobile_title {
+	background-color: #33485D;
+	position: fixed;
+}
+
+.mobile_title a.menu {
+	display: block;
+	height: 40px;
+	width: 39px;
+
+	position: absolute;
+	left: 0px;
+	top: 10px;
+
+	background-image: url(../images/mobile_menu.svg);
+	background-repeat: no-repeat;
+	background-position: -10px center;
+	background-size: 40px 40px;
+
+	transition: 0.3s all;
+}
+
+.mobile_title.menu_visible a.menu {
+	background-position: -30px center;
+}
+
+.mobile_title a.phone {
+	display: block;
+	width: 40px;
+	height: 40px;
+
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	background-image: url(../images/icon-phone.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	opacity: 0.7;
+}
+
+.mobile_title img {
+	display: block;
+	width: 130px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mobile_menu {
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mobile_menu div {
+	padding: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.mobile_menu div span {
+	display: block;
+}
+
+.mobile_menu li {
+	display: inline-block;
+}
+
+.mobile_menu li a {
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+
+	margin-top: 5px;
+	margin-right: 10px;
+	padding: 0px;
+
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 100% 100%;
+}
+
+body.rtl .mobile_menu li a {
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+.mobile_menu li.en a {
+	background-image: url(../modules/country_list/images/4x3/us.svg);
+}
+
+.mobile_menu li.he a {
+	background-image: url(../modules/country_list/images/4x3/il.svg);
+}
+
+.mobile_menu nav#menu a {
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+
+.mobile_menu nav#menu a.active {
+	color: #3397da;
+}
+
+.mobile_menu nav#menu a:active {
+	background-color: #3397da;
+	color: white;
+}

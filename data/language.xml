@@ -1,7 +1,373 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="English" short="en">
-		<constant name="site_title">Site title</constant>
+		<constant name="site_title">Callbox - Call Tracking Solutions</constant>
+		<constant name="copyright"><![CDATA[Copyright &copy; 2013. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
+		<!-- Header -->
+		<constant name="phone_number">09-3741111</constant>
+		<constant name="cta_header">Your Ultimate Call Tracking Solution</constant>
+
+		<constant name="try_for_free">Try For Free</constant>
+		<constant name="ask_for_demo">Ask For Demo</constant>
+
+		<!-- Menu -->
+		<constant name="home">Home</constant>
+		<constant name="pricing">Pricing</constant>
+		<constant name="features">Features</constant>
+		<constant name="contact">Contact Us</constant>
+		<constant name="login">Login</constant>
+		<constant name="signup">Sign Up</constant>
+		<constant name="demo">Demo</constant>
+		<constant name="language">Language</constant>
+		<!-- End of Menu -->
+
+		<constant name="info_title"><![CDATA[Know who Is Calling & How They Found You - The Instant They Call]]></constant>
+		<!-- End of Header -->
+
+		<!-- Homepage -->
+		<constant name="marketing">Marketing</constant>
+		<constant name="phone_calls">Phone Calls</constant>
+		<constant name="metrics">Metrics</constant>
+		<constant name="insights">Insights</constant>
+
+		<constant name="complete_solution">Your complete call tracking solution</constant>
+		<constant name="integration">Integrates with all your favorite services</constant>
+
+		<constant name="track_calls_header">Track Calls</constant>
+		<constant name="route_calls_header">Route Calls</constant>
+		<constant name="manage_calls_header">Manage Calls</constant>
+		<constant name="analyze_calls_header">Analyze Calls</constant>
+
+		<constant name="track_calls">Know which advertising is driving your calls. and something</constant>
+		<constant name="phone_calls_bottom">Get your calls to the right place quickly and something</constant>
+		<constant name="manage_calls">Keep track of calls and arm your reps with reatime caller information</constant>
+		<constant name="analyze_calls">Analyze call stats, staff performance and conversion trends.</constant>
+		<!-- End of Homepage -->
+
+		<!-- Pricing -->
+		<constant name="pricing_top_text">Pick the plan that's right for you.</constant>
+		<constant name="pricing_top_text_smaller">Cancel, upgrade or downgrade anytime.</constant>
+
+		<constant name="plan_title">Plan</constant>
+		<constant name="silver_plan_title">Silver</constant>
+		<constant name="silver_numbers_price">numbers start at 45NIS</constant>
+		<constant name="silver_calls_price">calls start at 0.40NIS</constant>
+		<constant name="silver_support">Limited Support</constant>		
+		<constant name="silver_plan_price">60NIS/mo</constant>
+
+		<constant name="gold_plan_title">Gold</constant>
+		<constant name="gold_numbers_price">numbers start at 40NIS</constant>
+		<constant name="gold_calls_price">calls start at 0.30NIS</constant>
+		<constant name="gold_support">Email and Phone</constant>
+		<constant name="gold_plan_price">120NIS/mo</constant>
+
+		<constant name="platinum_plan_title">Platinum</constant>
+		<constant name="platinum_numbers_price">numbers start at 35NIS</constant>
+		<constant name="platinum_calls_price">calls start at 0.20NIS</constant>
+		<constant name="platinum_support">24/7 Phone and Email</constant>
+		<constant name="platinum_plan_price">320NIS/mo</constant>
+
+		<constant name="plan_box_button">Sign Up</constant>
+		
+		<constant name="price_calculator">Use our pricing calculator to estimate your monthly costs</constant>
+		<constant name="price_calculator_button">Pricing Calculator</constant>
+
+		<constant name="price_box_info_title">All of our plans include these great features</constant>
+
+		<!-- Pricing Table -->
+		<constant name="pricing_cost_and_pricing">Cost and Pricing</constant>
+		<constant name="monthly_subscription">Monthly Subscription</constant>
+
+		<constant name="monthly_price_tracking_number">Monthly price per number</constant>
+		<constant name="monthly_price_tracking_number_silver">45NIS Per Number</constant>
+		<constant name="monthly_price_tracking_number_gold">40NIS Per Number</constant>
+		<constant name="monthly_price_tracking_number_platinum">35NIS Per Number</constant>
+
+		<constant name="per_minute_charge">Per minute charge for calls</constant>
+		<constant name="per_minute_charge_silver">0.40NIS / local minute</constant>
+		<constant name="per_minute_charge_gold">0.30NIS / local minute</constant>
+		<constant name="per_minute_charge_platinum">0.20NIS / local minute</constant>
+
+		<constant name="per_subaccount_charge">Charge Per Each Sub Account</constant>
+		<constant name="per_subaccount_charge_silver"></constant>
+		<constant name="per_subaccount_charge_gold"></constant>
+		<constant name="per_subaccount_charge_platinum">40NIS / Sub Account</constant>
+
+
+		<constant name="tracking_numbers">Tracking Numbers</constant>
+		<constant name="local_and_toll_free_numbers"><![CDATA[Local & Toll Free Numbers]]></constant>
+		<constant name="call_recording">Call Recording (turn on / off)</constant>
+		<constant name="track_online_offline_sources">Track Online or Offline Sources of Calls</constant>
+		<constant name="create_and_track_custom_sources"><![CDATA[Create & Track Custom Sources]]></constant>
+		<constant name="dynamic_number_swapping">Dynamic Number Swaping on Website</constant>
+		<constant name="whisper_plays_to_caller"><![CDATA[Whisper Plays to Caller <span>e.g. This call is being recorded</span>]]></constant>
+		<constant name="source_announcement_whisper">Source Anouncement Whisper</constant>
+		<constant name="schedule_recieving_numbers_by_time">Schedule Receiving Numbers by Time of Day</constant>
+		<constant name="ivr_menus">IVR Menus</constant>
+
+		<constant name="reporting">Reporting</constant>
+		<constant name="calls_by_source_report">Calls by Source Report</constant>
+		<constant name="calls_by_day_report">Calls by Day Report</constant>
+		<constant name="calls_by_time_of_day_report">Calls by Time of Day Report</constant>
+		<constant name="calls_by_map_report">Calls by Map Report</constant>
+		<constant name="calls_by_keyword_report">Calls by Keyword Report</constant>
+		<constant name="calls_by_referrer_report">Calls by Refferar Report</constant>
+		<constant name="calls_by_landing_page">Calls by Landing Page</constant>
+		<constant name="unlimited_custom_reports">Unlimited Custom Reports</constant>
+		<constant name="email_reports">Email Reports to Someone</constant>
+		<constant name="roi_reporting">ROI Reporting</constant>
+		<constant name="ppc_reports">PPC Reports (calls by campaign, adgroup)</constant>
+
+		<constant name="customize_and_integration">Customize and Integration</constant>
+		<constant name="add_unlimited_users">Add Unlimited Users</constant>
+		<constant name="add_users_by_account">Add Users by Account</constant>
+		<constant name="google_analytics_integration">Google Analytics Integration</constant>
+		<constant name="google_adwords_integration">Google Adwords Integration</constant>
+		<constant name="optimizely_integration">Optimizely Integration</constant>
+		<constant name="kissmetrics_integration">KISSmetrics Integration</constant>
+		<constant name="hubspot_integration">Hubspot Integration</constant>
+		<constant name="salesforce_integration">Salesforce Integration</constant>
+		<constant name="api_access">API Access</constant>
+		<constant name="wordpress_plugin">Wordpress Plugin</constant>
+		<constant name="click_to_call">Click to Call</constant>
+
+		<constant name="agency">Agency</constant>
+		<constant name="agency_logo_login_page">Agency Logo Displayed on Logged-in Pages</constant>
+		<constant name="agency_logo_signin_page">Agency Logo on Sign In Page</constant>
+		<constant name="view_reports_agency_level">View Reports at Agency Level</constant>
+		<constant name="number_of_sub_accounts">Number of Sub-Accounts</constant>
+		<constant name="manage_usage_cost_reporting_by_sub_account">Manage Usage, Cost and Reporting by Sub-Account</constant>
+		<!-- End of Pricing Table -->
+		<!-- End of Pricing -->
+
+		<!-- Features -->
+		<constant name="better_decisions">Make smarter advertising decisions with meaningful analytics.</constant>
+		<constant name="better_decisions_bottom">Callbox provides the tracking numbers, forwarding logistics and reporting that you need to get calls to the right place and optimize your budget.</constant>
+		<constant name="numbers_in_30_countries">Instantly activated tracking numbers in 30 countries</constant>
+		<constant name="box1_text">Mark calls as closed with rep name and sale amount</constant>
+		<constant name="box2_text">See the advertising source and keywords that generated the call</constant>
+		<constant name="box3_text">Perfect for Agencies and Resellers</constant>
+		<constant name="box4_text">Quickly listen to recorded calls</constant>
+		<constant name="box5_text">Know who is calling, their location and their phone number</constant>
+		<constant name="powerful_analytics">Powerful analytics instantly available for calls</constant>
+		<constant name="powerful_analytics1">Know who is calling, their location and their phone number</constant>
+		<constant name="powerful_analytics2">Quickly listen to recorded calls</constant>
+		<constant name="powerful_analytics3">See the advertising source and keywords that generated the call</constant>
+		<constant name="powerful_analytics4">Mark calls as closed with rep name and sale amount</constant>
+
+		<constant name="pulling_it_all_together">Pulling it all together</constant>
+		<constant name="perfect_for_agencies">Perfect for Agencies and Resellers</constant>
+		<constant name="help_center">Help Center</constant>
+		<constant name="email_features">info@callbox.co.il</constant>
+		<constant name="info_link">We are available by email</constant>
+		<constant name="phone_number_text">We are available by phone</constant>
+
+		<!-- End of Features -->
+
+		<!-- Contact Us -->
+		<constant name="contact_title">Contact Us</constant>
+
+		<constant name="label_name">Name</constant>
+		<constant name="label_phone">Phone</constant>
+		<constant name="label_email">Email</constant>
+		<constant name="label_message">Your Message</constant>
+		<constant name="message_missing_fields">Please fill in all of the fields before submitting. Thank you!</constant>
+		<!-- End of Contact Us -->
+
+		<!-- Footer -->
+		<constant name="try_demo">Try Our Demo Account</constant>
+		<constant name="try_button">Try For Free!</constant>
+
+		<constant name="terms">Terms of Service</constant>
+		<constant name="privacy">Privacy Policy</constant>
+		<constant name="cookies">Cookie Policy</constant>
+		<!-- End of footer -->
+	</language>
+
+	<language name="Hebrew" short="he" rtl="yes" default="yes" >
+		<constant name="site_title">Callbox - מעקב אחר שיחות טלפון</constant>
+		<constant name="copyright"><![CDATA[Copyright &copy; 2013. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
+		<!--Header -->
+		<constant name="phone_number">09-3741111</constant>
+		<constant name="cta_header">הפתרון האולטימטיבי למעקב אחר שיחות טלפון</constant>
+
+		<constant name="try_for_free">חשבון לדוגמא</constant>
+		<constant name="ask_for_demo">לתיאום הדגמה</constant>
+
+		<!-- Menu -->
+		<constant name="home">דף הבית</constant>
+		<constant name="pricing">מחירון</constant>
+		<constant name="features">תכונות</constant>
+		<constant name="contact">צור קשר</constant>
+		<constant name="login">כניסה</constant>
+		<constant name="signup">רישום</constant>
+		<constant name="demo">חשבון לדוגמא</constant>
+		<constant name="language">שפה</constant>
+		<!-- End of Menu -->
+		
+		<constant name="info_title"><![CDATA[דעו את זהות המתקשר לבית העסק ואיזה קמפיין אחראי לשיחה - בזמן אמת]]></constant>
+		<!-- End of Header -->
+
+		<!-- Homepage -->
+		<constant name="marketing">שיווק</constant>
+		<constant name="phone_calls">שיחות טלפון</constant>
+		<constant name="metrics">מדדים</constant>
+		<constant name="insights">תובנות</constant>
+
+		<constant name="complete_solution">הפתרון המושלם למעקב אחר שיחות</constant>
+		<constant name="integration">משתלב עם כל הכלים המוכרים</constant>
+
+		<constant name="track_calls_header">ניטור שיחות</constant>
+		<constant name="route_calls_header">ניתוב שיחות</constant>
+		<constant name="manage_calls_header">ניהול שיחות</constant>
+		<constant name="analyze_calls_header">ניתוח שיחות</constant>
+
+		<constant name="track_calls"><![CDATA[מיהו קמפיין הפרסום<br> שהניב את השיחה הספציפית?]]></constant>
+		<constant name="phone_calls_bottom"><![CDATA[נתבו את השיחה הנוכחית<br> ליעד המתאים ביותר ומיד]]></constant>
+		<constant name="manage_calls"><![CDATA[ציידו את נותני השירות<br> במידע רלוונטי ובזמן אמת]]></constant>
+		<constant name="analyze_calls"><![CDATA[ניתוח נתוני השיחות,<br> ביצועי הצוות ומגמות ההמרה]]>
+		</constant>
+		<constant name="integration">משתלב עם כל הכלים המוכרים</constant>
+		<!-- End of Homepage -->
+
+		<!-- Pricing -->
+		<constant name="pricing_top_text">בחר את התכנית המתאימה לך</constant>
+		<constant name="pricing_top_text_smaller">בטלו שדרגו או שנמכו את התכנית שלכם בכל רגע</constant>
+
+		<constant name="plan_title"></constant> 
+		<constant name="silver_plan_title">כסף</constant>
+		<constant name="silver_numbers_price">החל מ 40 שח למספר</constant>
+		<constant name="silver_calls_price">החל מ 40 אגורות לדקה</constant>
+		<constant name="silver_support">תמיכה בנק שעות</constant>		
+		<constant name="silver_plan_price"><![CDATA[₪60 לחודש]]></constant>
+
+		<constant name="gold_plan_title">זהב</constant>
+		<constant name="gold_numbers_price">החל מ 35 שח למספר</constant>
+		<constant name="gold_calls_price">החל מ 30 אגורות לדקה</constant>
+		<constant name="gold_support">תמיכה במייל ובטלפון</constant>
+		<constant name="gold_plan_price"><![CDATA[₪120 לחודש]]></constant>
+		
+		<constant name="platinum_plan_title">פלטינום</constant>
+		<constant name="platinum_numbers_price">החל מ 30 שח למספר</constant>
+		<constant name="platinum_calls_price">החל מ 20 אגורות לדקה</constant>
+		<constant name="platinum_support">תמיכה כוללת 24/7</constant>
+		<constant name="platinum_plan_price"><![CDATA[₪320 לחודש]]></constant>
+		<constant name="plan_box_button">הרשם</constant>
+		
+		<constant name="price_calculator">השתמש במחשבון שלנו על מנת להעריך את העלויות החודשיות שלך</constant>
+		<constant name="price_calculator_button">מחשבון תמחור</constant>
+
+		<constant name="price_box_info_title">כל התוכניות שלנו כוללות בתוכן את האפשרויות הבאות</constant>
+				<!-- Pricing Table -->
+		<constant name="pricing_cost_and_pricing">עלות ותמחור</constant>
+		<constant name="monthly_subscription">מנוי חודשי</constant>
+
+		<constant name="monthly_price_tracking_number">עלות מספר לחודש</constant>
+		<constant name="monthly_price_tracking_number_silver"><![CDATA[₪40 לחודש]]></constant>
+		<constant name="monthly_price_tracking_number_gold"><![CDATA[₪35 לחודש]]></constant>
+		<constant name="monthly_price_tracking_number_platinum"><![CDATA[₪30 לחודש]]></constant>
+
+		<constant name="per_minute_charge">עלות דקת שיחה</constant>
+		<constant name="per_minute_charge_silver">₪0.40/ טלפון קווי</constant>
+		<constant name="per_minute_charge_gold">₪0.30 / טלפון קווי</constant>
+		<constant name="per_minute_charge_platinum">₪0.20 / טלפון קווי</constant>
+
+		<constant name="per_subaccount_charge">מחיר עבור כל תת חשבון</constant>
+		<constant name="per_subaccount_charge_silver"></constant>
+		<constant name="per_subaccount_charge_gold"></constant>
+		<constant name="per_subaccount_charge_platinum">₪30 / תת חשבון</constant>
+
+		<constant name="tracking_numbers">מספרי מעקב</constant>
+		<constant name="local_and_toll_free_numbers"><![CDATA[מספרים מקומיים ומספרים זרים]]></constant>
+		<constant name="call_recording">הקלטת שיחה (הדלק/ כבה)</constant>
+		<constant name="track_online_offline_sources">מעקב אחר מקור השיחות</constant>
+		<constant name="create_and_track_custom_sources"><![CDATA[צרו ועקבו אחר מקורות שיצרתם]]></constant>
+		<constant name="dynamic_number_swapping">החלפת מספרים דינאמית באתר</constant>
+		<constant name="whisper_plays_to_caller"><![CDATA[תמלול למתקשר<span>...לדוגמה: השיחה מוקלטת מטעמי</span>]]></constant>
+		<constant name="source_announcement_whisper">הודעה לנציג לגבי מקור השיחה</constant>
+		<constant name="schedule_recieving_numbers_by_time">הפניה למספרי טלפון על פי שעות</constant>
+		<constant name="ivr_menus">תפריטים קוליים</constant>
+
+		<constant name="reporting">דוחות</constant>
+		<constant name="text_list_pricing_table">רשימת תוכניות - כל האפשרויות והיתרונות</constant>
+		<constant name="calls_by_source_report">דוח שיחות לפי מקור</constant>
+		<constant name="calls_by_day_report">דוח שיחות לפי יום</constant>
+		<constant name="calls_by_time_of_day_report">דוח שיחות לפי שעות ביום</constant>
+		<constant name="calls_by_map_report">דוחות שיחות לפי מיקום </constant>
+		<constant name="calls_by_keyword_report">דוח שיחות לפי מילות מפתח</constant>
+		<constant name="calls_by_referrer_report">דוח שיחות לפי מפנה השיחה</constant>
+		<constant name="calls_by_landing_page">דוח שיחות לפי עמודי נחיתה</constant>
+		<constant name="unlimited_custom_reports">דוחות לפי התאמה</constant>
+		<constant name="email_reports">שליחת דוחות לנמענים</constant>
+		<constant name="roi_reporting">דוחות החזר השקעה</constant>
+		<constant name="ppc_reports">דוחות PPC (שיחות לפי קמפיין וקבוצה)</constant>
+
+		<constant name="customize_and_integration">התאמה אישית ואינטגרציה</constant>
+		<constant name="add_unlimited_users">הוספת משתמשים ללא הגבלה</constant>
+		<constant name="add_users_by_account">הוספת משתמשים לחשבון מסויים</constant>
+		<constant name="google_analytics_integration">התממשקות לגוגל אנליטיקס</constant>
+		<constant name="google_adwords_integration">התממשקות לגוגל אדוורדס</constant>
+		<constant name="optimizely_integration">התממשקות ל Optimizely</constant>
+		<constant name="kissmetrics_integration">התממשקות ל KISSmetrics</constant>
+		<constant name="hubspot_integration">התממשקות ל Hubspot</constant>
+		<constant name="salesforce_integration">התממשקות ל Salesforce</constant>
+		<constant name="api_access">גישת API</constant>
+		<constant name="wordpress_plugin">תוסף וורדפרס</constant>
+		<constant name="click_to_call">הקלק להתקשר</constant>
+
+		<constant name="agency">חברות קידום אתרים</constant>
+		<constant name="agency_logo_login_page">הצגת לוגו החברה בעמודי הכניסה</constant>
+		<constant name="agency_logo_signin_page">הצגת לוגו החברה בעמודי ההרשמה</constant>
+		<constant name="view_reports_agency_level">צפיה בדוחות של כלל החשבון</constant>
+		<constant name="number_of_sub_accounts">מספר תתי חשבונות</constant>
+		<constant name="manage_usage_cost_reporting_by_sub_account">ניהול שימוש, עלויות ודוחות של תתי חשבונות</constant>
+
+		<!-- End of Pricing Table -->	
+		<!-- End of Pricing -->
+
+		<!-- Features -->
+		<constant name="better_decisions">קבלת החלטות פרסומיות מושכלת ומבוססת על אנליטיקה משמעותית ועדכנית.</constant>
+		<constant name="better_decisions_bottom"> תספק את "מספרי המעקב", את הליך העברת השיחה ודוחות בזמן אמת שיתרמו לתיעול השיחות למקום הנכון ולייעול תקציב הפרסום שלכם.</constant>
+		<constant name="numbers_in_30_countries">לרשותכם מספרי מעקב ב 30 מדינות ניתנים להפעלה באופן מיידי</constant>
+		<constant name="box1_text">ראה את מקור החיפוש ואת מילת המפתח שהניבה את השיחה </constant>
+		<constant name="box2_text">סמן שיחות שהניבו רווחים, שם הנציג ובכמה כסף נסגרה העסקה</constant>
+		<constant name="box3_text">מושלם לחברות קידום אתרים מיתוג משלכם לעמודי המערכת</constant>
+		<constant name="box4_text">האזן לשיחות המוקלטות</constant>
+		<constant name="box5_text">זהה מי מתקשר, מיקומו ואת מספר הטלפון שלו</constant>
+		<constant name="powerful_analytics">ניתוח עצמתי של נתוני השיחות  - בזמינות מיידית</constant>
+		<constant name="powerful_analytics1">זהות המתקשרים, המיקום ומספר הטלפון שלהם.</constant>
+		<constant name="powerful_analytics2">הקשבה לשיחות מוקלטות בכל רגע נתון.</constant>
+		<constant name="powerful_analytics3">זיהוי מקור הפרסום ומילת המפתח שהניבה את השיחה.</constant>
+		<constant name="powerful_analytics4">ציון שיחות מכירה ובזאת את שם נציג השירות וסכום העסקה.</constant>
+
+		<constant name="pulling_it_all_together">התקנה ותוספים</constant>
+		<constant name="perfect_for_agencies">מושלם לחברות קידום אתרים</constant>
+		<constant name="help_center">מרכז תמיכה ועזרה</constant>
+		<constant name="help_center_second">מרכז התמיכה שלנו עומד לרשותכם בכל שאלה</constant>
+		<constant name="info_link">אנו זמינים במייל</constant>
+		<constant name="phone_number_text">אנו זמינים בטלפון</constant>
+		<constant name="email_features">info@callbox.co.il</constant>
+
+		<!-- End of Features -->
+
+
+		<!-- Contact Us -->
+		<constant name="contact_title">צור קשר</constant>
+
+		<constant name="label_name">שם</constant>
+		<constant name="label_phone">טלפון</constant>
+		<constant name="label_email">אימייל</constant>
+		<constant name="label_message">ההודעה שלכם</constant>
+		<constant name="message_missing_fields">Please fill in all of the fields before submitting. Thank you!</constant>
+		<!-- End of Contact Us -->
+
+		<!-- End of footer -->
+		<constant name="try_demo">נסו חשבון לדוגמא</constant>
+		<constant name="try_button">הפעל דוגמא</constant>
+
+		<constant name="terms">תנאי שימוש</constant>
+		<constant name="privacy">מדיניות פרטיות</constant>
+		<constant name="cookies">Cookie Policy</constant>
+		<!-- End of footer -->
 	</language>
 </document>

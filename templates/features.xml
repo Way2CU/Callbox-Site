@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" eval="src"/>
+			<cms:collection include="dialog,animation_chain"/>
+			<link
+				href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,400italic"
+				rel="stylesheet"
+				type="text/css"
+			/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" eval="src"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" eval="class">
+			<cms:template file="parts/header.xml"/>
+			<div id="content">
+				<div class="wrap gray">
+					<div class="inner_wrap">
+						<h2 class="features_top"><cms:text constant="better_decisions"/></h2>
+						<span class="features_bottom">
+							<cms:text constant="better_decisions_bottom"/>
+						</span>
+						<div id="monitor">
+							<cms:desktop>
+							<div id="video"/>
+									<cms:module
+										name="youtube"
+										action="show"
+										text_id="guide"
+										embed="1"
+										width="600"
+										height="360"
+										target="video"
+										theme="light"
+										autohide="0"
+									/>
+								</cms:desktop>
+								<cms:mobile>
+									<div id="video">
+										<iframe width="280" height="158" src="//www.youtube.com/embed/mwHcDaoHK5o?rel=0" frameborder="0" ></iframe>
+									</div>
+								</cms:mobile>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_odd">
+					<div class="inner_wrap">
+						<h3 class="bottom_blue_header"><cms:text constant="price_box_info_title"/></h3>
+						<div class="inner_wrap">
+							<div class="features_box">
+									<cms:module
+										name="articles"
+										action="show"
+										text_id="pricing_box_info_first"
+										template="parts/article_no_title.xml"
+									/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrap list">
+					<div class="inner_wrap">
+						<h3 class="features_list_header"><cms:text constant="numbers_in_30_countries"/></h3>
+						<div class="box one_half">
+							<div class="features_list">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="features_list"
+								template="parts/article_no_title.xml"
+							/>
+							</div>
+						</div>
+						<div class="box one_half">
+							<img
+								src="_BASEURL.'/site/images/map.svg'"
+								alt="MainLanguageHandler::getInstance()->getText('home_alt')"
+								eval="src,alt"
+								class="worldmap"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_odd_second">
+					<div class="inner_wrap">
+						<h3 class="features_list_header">
+							<cms:text constant="powerful_analytics"/>
+						</h3>
+						<div class="box1">
+							<p><cms:text constant="box1_text"/></p>
+						</div>
+						<div class="box2">
+							<p><cms:text constant="box2_text"/></p>
+						</div>
+						<div class="box3">
+							<p><cms:text constant="box3_text"/></p>
+						</div>
+						<div class="box4">
+							<p><cms:text constant="box4_text"/></p>
+						</div>
+						<div class="box5">
+							<p><cms:text constant="box5_text"/></p>
+						</div>
+					</div>
+				</div>
+				<div class="wrap white features">
+					<div class="inner_wrap">
+						<h3 class="features_blue_header">
+							<cms:text constant="pulling_it_all_together"/>
+						</h3>
+						<div class="pulling_together">
+							<cms:module
+									name="articles"
+									action="show"
+									text_id="pulling_it_all_together"
+									template="parts/article_no_title.xml"
+								/>
+						</div>
+						<h3 class="features_blue_second">
+							<cms:text constant="help_center"/>
+						</h3>
+						<p>
+							<cms:text constant="help_center_second"/>
+						</p>
+						<div class="features_link_wrap">
+							<div class="one">
+								<span>
+									<cms:text constant="info_link"/>
+								</span>
+								<a
+									 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+									 eval="href" 
+									 class=""
+								>
+								<cms:text constant="email_features"/>
+							</a>
+							</div>
+							<div class="two">
+								<span>
+									<cms:text constant="phone_number_text"/>
+								</span>
+								<a
+									 href="'tel:'.urlencode(MainLanguageHandler::getInstance()->getText(''))"
+									 eval="href" 
+									 class=""
+								>
+								<cms:text constant="phone_number"/>
+							</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>

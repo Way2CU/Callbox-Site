@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" eval="src"/>
+			<cms:collection include="dialog,animation_chain"/>
+			<link
+				href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,400italic"
+				rel="stylesheet"
+				type="text/css"
+			/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" eval="src"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+		<body style="padding: 0px; margin: 0px;">
+			<iframe
+				width="100%"
+				height="100%"
+				frameborder="0"
+				src="https://admin.callbox.co.il/calls?_ctm_frame=1&amp;auth_token=uatYsVxtxsBoFfzXFd5Z"
+				style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+			/>
+		</body>
+	</html>
+</document>

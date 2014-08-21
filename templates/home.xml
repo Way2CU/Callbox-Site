@@ -1,15 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
 <document>
 	<cms:var name="_DOCTYPE"/>
-	<html lang="$language" cms:eval="lang">
+	<html lang="$language" eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" eval="src"/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" eval="src"/>
+			<cms:collection include="dialog,animation_chain"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
-		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+		<body class="$language_rtl ? 'rtl' : 'ltr'" eval="class">
+			<cms:template file="parts/header.xml"/>
+
+			<div id="content">
+				<div class="wrap blue">
+					<div class="inner_wrap">
+						<div class="css_sprite_container upper">
+							<div>
+								<span class="sprite_bg one"></span>
+								<span>
+									<cms:text constant="marketing"/>
+								</span>
+							</div>
+							<div>
+								<span class="sprite_bg two"></span>
+								<span>
+									<cms:text constant="phone_calls"/>
+								</span>
+							</div>
+							<div>
+								<span class="sprite_bg three"></span>
+								<span>
+									<cms:text constant="metrics"/>
+								</span>
+							</div>
+							<div>
+								<span class="sprite_bg four"></span>
+								<span>
+									<cms:text constant="insights"/>
+								</span>
+							</div>
+						</div>
+						<div class="one_half home">
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="info"
+								/>
+						</div>
+						<img
+							src="_BASEURL.'/site/images/screen-demo.png'"
+							alt="img_home"
+							class="computer home"
+							cms:eval="src"
+							/>
+					</div>
+				</div>
+				<div class="wrap white">
+					<div class="inner_wrap">
+						<h1 class="h1 solution">
+							<cms:text constant="complete_solution"/>
+						</h1>
+						<div class="css_sprite_container_second">
+							<span>
+								<h4>
+									<cms:text constant="track_calls_header"/>
+								</h4>
+								<p>
+									<cms:text constant="track_calls"/>
+								</p>
+							</span>
+							<span>
+								<h4>
+									<cms:text constant="route_calls_header"/>
+								</h4>
+								<p>
+									<cms:text constant="phone_calls_bottom"/>
+								</p>
+							</span>
+							<span>
+								<h4>
+									<cms:text constant="manage_calls_header"/>
+								</h4>
+								<p>
+									<cms:text constant="manage_calls"/>
+								</p>
+							</span>
+							<span>
+								<h4>
+									<cms:text constant="analyze_calls_header"/>
+								</h4>
+								<p>
+									<cms:text constant="analyze_calls"/>
+								</p>
+							</span>
+						</div>
+						<h2>
+							<cms:text constant="integration"/>
+						</h2>
+						<div class="integration">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- include footer-->
+			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
 </document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../../units/schema/language.dtd">
+<document>
+	<footer>
+		<div class="wrap footer_image">
+			<div class="inner_wrap">
+				<div class="try_demo">
+					<h5>
+						<cms:text constant="try_demo"/>
+					</h5>
+					<a
+						 href="_BASEURL.'/demo'"
+						 cms:eval="href" 
+						 class=""
+					>
+						<cms:text constant="try_button"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrap white">
+			<div class="inner_wrap">
+				<div class="images">
+					<img
+						src="_BASEURL.'/site/images/logo-grey-text.svg'"
+						alt="logo"
+						cms:eval="src"
+					/>
+					<img
+						src="_BASEURL.'/site/images/calltrackingmatrics.svg'"
+						alt="calltrackingmatrics"
+						cms:eval="src"
+					/>
+				</div>
+			</div>
+			<div class="wrap vector">
+				<div class="inner_wrap">
+					<cms:desktop>
+						<nav id="main_footer">
+							<cms:template file="parts/main_menu.xml"/>
+						</nav>
+					<div class="links">
+						<a href="#">
+							<cms:text constant="ask_for_demo"/>
+						</a>
+						<a href="#">
+							<cms:text constant="try_for_free"/>
+						</a>
+						<img
+							src="_BASEURL.'/site/images/icon-google-plus.svg'"
+							alt="icon-google-plus"
+							cms:eval="src"
+						/>
+					</div>
+						<p>
+							<cms:text constant="copyright"/>
+						</p>
+					</cms:desktop>
+				</div>
+			</div>
+		</div>
+		<cms:mobile>
+			<div class="mobile_links">
+				<div class="inner_wrap">
+					<div class="links">
+						<a href="#">
+							<cms:text constant="ask_for_demo"/>
+						</a>
+						<a href="#">
+							<cms:text constant="try_for_free"/>
+						</a>
+						<img
+							src="_BASEURL.'/site/images/icon-google-plus.svg'"
+							alt="icon-google-plus"
+							cms:eval="src"
+							/>
+					</div>
+					<p>
+						<cms:text constant="copyright"/>
+					</p>
+				</div>
+			</div>
+		</cms:mobile>
+	</footer>
+</document>
+
+

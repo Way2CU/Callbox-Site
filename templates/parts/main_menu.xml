@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../../units/schema/language.dtd">
+<document>
+	<a
+		class="$section == 'home' ? 'active' : false"
+		href="url_Make()"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="home"/>
+	</a>
+	<a
+		class="$section == 'pricing' ? 'active' : false"
+		href="url_Make('', 'pricing')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="pricing"/>
+	</a>
+	<a
+		class="$section == 'features' ? 'active' : false"
+		href="url_Make('', 'features')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="features"/>
+	</a>
+	<a
+		class="$section == 'contact' ? 'active' : false"
+		href="url_Make('', 'contact')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="contact"/>
+	</a>
+	<cms:desktop>
+		<a
+			class="$section == 'demo' ? 'active' : false"
+			href="url_Make('', 'demo')"
+			cms:eval="href"
+			cms:optional="class"
+			>
+			<cms:text constant="demo"/>
+		</a>
+	</cms:desktop>
+	<a
+		href="url_Make('get', 'downloads', array('id', 2))"
+		cms:eval="href"
+		>
+		<cms:text constant="terms"/>
+	</a>
+	<a
+		class="$section == 'privacy' ? 'active' : false"
+		href="url_Make('', 'privacy')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="privacy"/>
+	</a>
+</document>

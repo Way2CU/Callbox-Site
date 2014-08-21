@@ -1,0 +1,181 @@
+/**
+ * Footer Mobile Style Sheet
+ * Callbox
+ *
+ * Copyright (c) 2014. by Way2CU
+ * Author: Khalid Sawalhi
+ */
+
+footer {
+	overflow: hidden;
+	position: relative;
+}
+
+footer:before {
+	display: block;
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200%;
+	right: -50%;
+	top: -115px;
+	content: ' ';
+	transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+footer div.wrap.footer_image {
+	background-image: url(../images/macbook-mockup.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 300%;
+	height: 600px;
+}
+
+footer div.wrap.footer_image:after {
+	display: block;
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 200%;
+	right: -50%;
+	top: 470px;
+	content: ' ';
+	transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo {
+	display: block;
+	width: 335px;
+
+	margin-left: -166px;
+
+	position: absolute;
+	top: 180px;
+	left: 50%;
+
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+
+	text-align: center;
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo h5 {
+	font-size: 1.7em;
+	color: #3397DA;
+}
+
+footer div.wrap.footer_image div.inner_wrap div.try_demo a {
+	display: inline-block;
+
+	margin: 0px;
+	margin-bottom: 23px;
+	padding: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+
+	border: none;
+	border-radius: 2px;
+	background-color: #3397DA;
+
+	color: white;
+	font-size: 1.4em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+footer div.wrap.white{
+	background-color: white;
+}
+
+footer div.images img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	padding: 10px;
+}
+
+footer div.wrap.vector{
+	background-image: url(../images/footer-vector.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+}
+
+div.wrap.vector div.inner_wrap {
+	height: 96px;
+}
+
+footer div.mobile_links {
+	background-color: #2B3D4F;
+}
+
+footer div.mobile_links div.inner_wrap div.links {
+	text-align: center;
+	padding-top: 30px;
+}
+
+footer div.mobile_links div.inner_wrap div.links a {
+	display: inline-block;
+	min-width: 70%;
+
+	margin: 5px;
+	padding: 8px;
+
+	border: 2px solid #3397DA;
+	border-radius: 5px;
+	background-color: #3397DA;
+
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+
+	transition: 0.3s all;
+}
+
+footer div.mobile_links div.inner_wrap div.links a:last-of-type {
+	border-color: #3397DA;
+	background-color: white;
+	color: #3397DA;
+}
+
+footer div.mobile_links div.inner_wrap div.links a:hover{
+	background-color: #3397DA;
+	color: white;
+}
+
+footer div.mobile_links div.inner_wrap div.links a:last-of-type:hover {
+	background-color: white;
+	color: #3397DA;
+}
+
+footer div.mobile_links div.inner_wrap div.links img {
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer div.inner_wrap p {
+	display: block;
+
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+
+	color: white;
+	font-size: 0.9em;
+	text-align: center;
+	direction: ltr;
+}
+
+footer div.inner_wrap p a {
+	color: #3397DA;
+	text-decoration: none;
+}
