@@ -944,7 +944,7 @@ div#content div.wrap.gray div.inner_wrap div#monitor {
 	z-index: 1;
 }
 
-object#video {
+iframe.video {
 	display: block;
 	padding-top: 20px;
 	margin-left: auto;
