@@ -430,12 +430,27 @@ header div.inner_wrap.top_home div.links a:last-child:hover{
 	color: white;
 }
 
+@-webkit-keyframes arrow {
+  0%   { top: 0; }
+  50% { top: 10px; }
+  100%   { top: 0; }
+}
+
+@keyframes arrow {
+  0%   { top: 0; }
+  50% { top: 10px; }
+  100%   { top: 0; }
+}
+
 header div.inner_wrap.top_home img{
 	display: block;
 	text-align: center;
+	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 40px;
+	-webkit-animation: arrow 3s linear infinite;
+	animation: arrow 3s linear infinite;
 }
 
 header div.inner_wrap.top_home:after {
