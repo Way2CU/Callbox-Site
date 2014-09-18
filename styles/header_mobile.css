@@ -339,7 +339,7 @@ header div.inner_wrap.top_home:after {
 	left: 0px;
 	top: 10px;
 
-	background-image: url(../images/mobile_menu.svg);
+	background-image: url(../../system/images/mobile_menu.svg);
 	background-repeat: no-repeat;
 	background-position: -10px center;
 	background-size: 40px 40px;
@@ -415,11 +415,11 @@ body.rtl .mobile_menu li a {
 }
 
 .mobile_menu li.en a {
-	background-image: url(../modules/country_list/images/4x3/us.svg);
+	background-image: url(../../modules/country_list/images/4x3/us.svg);
 }
 
 .mobile_menu li.he a {
-	background-image: url(../modules/country_list/images/4x3/il.svg);
+	background-image: url(../../modules/country_list/images/4x3/il.svg);
 }
 
 .mobile_menu nav#menu a {

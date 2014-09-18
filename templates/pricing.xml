@@ -2,21 +2,16 @@
 <!DOCTYPE document SYSTEM "../units/schema/template.dtd">
 <document>
 	<cms:var name="_DOCTYPE"/>
-	<html lang="$language" eval="lang">
+	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
-			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" eval="src"/>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
 			<cms:collection include="dialog,animation_chain"/>
-			<link
-				href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700,400italic"
-				rel="stylesheet"
-				type="text/css"
-			/>
-			<cms:script src="_BASEURL.'/site/scripts/contact.js'" eval="src"/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
-		<body class="$language_rtl ? 'rtl' : 'ltr'" eval="class">
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
 			<div id="content">
 				<div class="wrap pricing grey">
@@ -40,7 +35,7 @@
 									<li><cms:text constant="silver_support"/></li>
 									<li style="visibility: hidden;"></li>
 								</ul>
-								<a href="url_Make('','contact')" eval="href" class="silver"><cms:text constant="plan_box_button"/></a>
+								<a href="url_Make('','contact')" cms:eval="href" class="silver"><cms:text constant="plan_box_button"/></a>
 							</li>
 							<li class="plan_box">
 								<div class="plan_box_title gold">
@@ -54,7 +49,7 @@
 									<li><cms:text constant="gold_support"/></li>
 									<li style="visibility: hidden;"></li>								
 								</ul>
-								<a href="url_Make('','contact')" eval="href" class="gold"><cms:text constant="plan_box_button"/></a>
+								<a href="url_Make('','contact')" cms:eval="href" class="gold"><cms:text constant="plan_box_button"/></a>
 							</li>
 							<li class="plan_box">
 								<div class="plan_box_title blue">
@@ -68,7 +63,7 @@
 									<li><cms:text constant="platinum_support"/></li>
 									<li><cms:text constant="per_subaccount_charge_platinum"/></li>			
 								</ul>
-								<a href="url_Make('','contact')" eval="href" class="blue"><cms:text constant="plan_box_button"/></a>
+								<a href="url_Make('','contact')" cms:eval="href" class="blue"><cms:text constant="plan_box_button"/></a>
 							</li>
 						</ul>
 				</div>

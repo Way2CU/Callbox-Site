@@ -120,7 +120,11 @@ footer div.mobile_links div.inner_wrap div.links {
 	padding-top: 30px;
 }
 
-footer div.mobile_links div.inner_wrap div.links a {
+footer div.mobile_links div.inner_wrap div.links > div {
+	padding-bottom: 20px;
+}
+
+footer div.mobile_links div.inner_wrap div.links > a {
 	display: inline-block;
 	min-width: 70%;
 
@@ -138,18 +142,18 @@ footer div.mobile_links div.inner_wrap div.links a {
 	transition: 0.3s all;
 }
 
-footer div.mobile_links div.inner_wrap div.links a:last-of-type {
+footer div.mobile_links div.inner_wrap div.links > a:last-of-type {
 	border-color: #3397DA;
 	background-color: white;
 	color: #3397DA;
 }
 
-footer div.mobile_links div.inner_wrap div.links a:hover{
+footer div.mobile_links div.inner_wrap div.links > a:hover{
 	background-color: #3397DA;
 	color: white;
 }
 
-footer div.mobile_links div.inner_wrap div.links a:last-of-type:hover {
+footer div.mobile_links div.inner_wrap div.links > a:last-of-type:hover {
 	background-color: white;
 	color: #3397DA;
 }

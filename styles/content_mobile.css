@@ -125,7 +125,7 @@ div.wrap.white div.inner_wrap h1.solution{
 	text-align: center;
 }
 
-div.wrap.white div.inner_wrap div.css_sprite_container_second span{
+div.wrap.white div.inner_wrap div.css_sprite_container_second div{
 	display: block;
 	background-image: url(../images/icons-perfect-solution.svg);
 	background-repeat: no-repeat;
@@ -139,22 +139,22 @@ div.wrap.white div.inner_wrap div.css_sprite_container_second span{
 	padding-top: 200px;
 }
 
- div.wrap.white div.inner_wrap div.css_sprite_container_second span:first-child{
+ div.wrap.white div.inner_wrap div.css_sprite_container_second div:first-child{
 	background-position: -626px 0px;
 }
 
-div.wrap.white div.inner_wrap div.css_sprite_container_second span:nth-child(2){
+div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(2){
 	background-position: -415px 0px;	
 }
 
- div.wrap.white div.inner_wrap div.css_sprite_container_second span:nth-child(3){
+ div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(3){
 	background-position: -205px 0px;	
 }
 
- div.wrap.white div.inner_wrap div.css_sprite_container_second span:last-child{
+ div.wrap.white div.inner_wrap div.css_sprite_container_second div:last-child{
 	background-position: 0px 0px;	
 }
- div.wrap.white div.inner_wrap div.css_sprite_container_second span h4{
+ div.wrap.white div.inner_wrap div.css_sprite_container_second div h4{
  	display: block;
  	margin: 0;
 	margin-top: 20px;
@@ -162,7 +162,7 @@ div.wrap.white div.inner_wrap div.css_sprite_container_second span:nth-child(2){
 	font-size: 1.4em
 }
 
- div.wrap.white div.inner_wrap div.css_sprite_container_second span p{
+ div.wrap.white div.inner_wrap div.css_sprite_container_second div p{
  	display: block;
  	margin: 0;
 	color: #3B5997;

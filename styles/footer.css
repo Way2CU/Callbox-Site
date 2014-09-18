@@ -166,25 +166,14 @@ footer div.inner_wrap div.links {
 	position: absolute;
 	left: 50%;
 	margin-left: -171.5px;
-	top: 650px;
+	top: 630px;
 }
 
-footer div.inner_wrap div.links a:first-child{
-	display: inline-block;
-	background-color: #3397DA;
-	margin: 5px;
-	padding: 8px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border: 2px solid #3397DA;
-	border-radius: 5px;
-	color: white;
-	font-size: 1.3em;
-	text-decoration: none;
-	transition: 0.3s all;
+footer div.inner_wrap div.links > div{
+	padding-bottom: 20px;
 }
 
-footer div.inner_wrap div.links a{
+footer div.inner_wrap div.links > a {
 	display: inline-block;
 
 	margin: 5px;
@@ -203,14 +192,29 @@ footer div.inner_wrap div.links a{
 	transition: 0.3s all;
 }
 
-footer div.inner_wrap div.links a:first-child:hover {
+footer div.inner_wrap div.links > a:hover{
 	background-color: #004265;
+	border: 2px solid white;
 	color: white;
 }
 
-footer div.inner_wrap div.links a:hover{
+footer div.inner_wrap div.links > a:first-of-type {
+	display: inline-block;
+	background-color: #3397DA;
+	margin: 5px;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #3397DA;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+footer div.inner_wrap div.links > a:first-of-type:hover {
 	background-color: #004265;
-	border: 2px solid white;
 	color: white;
 }
 

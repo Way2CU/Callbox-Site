@@ -9,10 +9,10 @@
 						<cms:text constant="try_demo"/>
 					</h5>
 					<a
-						 href="_BASEURL.'/demo'"
-						 cms:eval="href" 
-						 class=""
-					>
+						href="_BASEURL.'/demo'"
+						cms:eval="href" 
+						class=""
+						>
 						<cms:text constant="try_button"/>
 					</a>
 				</div>
@@ -25,12 +25,12 @@
 						src="_BASEURL.'/site/images/logo-grey-text.svg'"
 						alt="logo"
 						cms:eval="src"
-					/>
+						/>
 					<img
 						src="_BASEURL.'/site/images/calltrackingmatrics.svg'"
 						alt="calltrackingmatrics"
 						cms:eval="src"
-					/>
+						/>
 				</div>
 			</div>
 			<div class="wrap vector">
@@ -39,22 +39,26 @@
 						<nav id="main_footer">
 							<cms:template file="parts/main_menu.xml"/>
 						</nav>
-					<div class="links">
-						<a href="#">
-							<cms:text constant="ask_for_demo"/>
-						</a>
-						<a href="#">
-							<cms:text constant="try_for_free"/>
-						</a>
-						<img
-							src="_BASEURL.'/site/images/icon-google-plus.svg'"
-							alt="icon-google-plus"
-							cms:eval="src"
-						/>
-					</div>
-						<p>
-							<cms:text constant="copyright"/>
-						</p>
+
+						<div class="links">
+							<div>
+								<a href="http://google.com/+CallboxCoIl">
+									<img
+										src="_BASEURL.'/site/images/icon-google-plus.svg'"
+										alt="icon-google-plus"
+										cms:eval="src"
+										/>
+								</a>
+							</div>
+
+							<a href="url_Make('', 'contact')" cms:eval="href">
+								<cms:text constant="ask_for_demo"/>
+							</a>
+							<a href="/demo">
+								<cms:text constant="try_for_free"/>
+							</a>
+						</div>
+						<p><cms:text constant="copyright"/></p>
 					</cms:desktop>
 				</div>
 			</div>
@@ -63,17 +67,21 @@
 			<div class="mobile_links">
 				<div class="inner_wrap">
 					<div class="links">
-						<a href="#">
+						<div>
+							<a href="http://google.com/+CallboxCoIl">
+								<img
+									src="_BASEURL.'/site/images/icon-google-plus.svg'"
+									alt="icon-google-plus"
+									cms:eval="src"
+									/>
+							</a>
+						</div>
+						<a href="url_Make('', 'contact')" cms:eval="href">
 							<cms:text constant="ask_for_demo"/>
 						</a>
-						<a href="#">
+						<a href="/demo">
 							<cms:text constant="try_for_free"/>
 						</a>
-						<img
-							src="_BASEURL.'/site/images/icon-google-plus.svg'"
-							alt="icon-google-plus"
-							cms:eval="src"
-							/>
 					</div>
 					<p>
 						<cms:text constant="copyright"/>

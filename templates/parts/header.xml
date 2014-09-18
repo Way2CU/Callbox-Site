@@ -13,7 +13,7 @@
 						<img
 							src="_BASEURL.'/site/images/logo-white-text.svg'"
 							alt="logo"
-							width="180xp"
+							width="180"
 							cms:eval="src"
 						/>
 					</a>		
@@ -24,7 +24,7 @@
 	
 					<div class="login_form">
 						<a class="login" href="http://admin.callbox.co.il"><cms:text constant="login"/></a>
-						<a class="signup" href="url_Make('', 'contact')" eval="href"><cms:text constant="signup"/>
+						<a class="signup" href="url_Make('', 'contact')" cms:eval="href"><cms:text constant="signup"/>
 						</a>
 					</div>
 						<ul id="language_selector">
@@ -37,7 +37,7 @@
 
 						<a
 							 href="'tel:'.MainLanguageHandler::getInstance()->getText('phone_number')"
-							 eval="href" 
+							 cms:eval="href" 
 							 class="phone_number"
 						>
 						<cms:text constant="phone_number"/>
@@ -84,7 +84,7 @@
 					<cms:text constant="info_title"/>
 				</h2>
 				<div class="links">
-						<a href="#">
+						<a href="url_Make('', 'contact')" cms:eval="href">
 							<cms:text constant="ask_for_demo"/>
 						</a>
 						<a href="#">
