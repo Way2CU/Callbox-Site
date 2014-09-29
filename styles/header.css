@@ -269,6 +269,7 @@ body.rtl header a.phone_number {
 	padding-right: 35px;
 	right: auto;
 	left: 0;
+	direction: ltr;
 
 	background-position: calc(100% - 5px) center;
 }
