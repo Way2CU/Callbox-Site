@@ -89,6 +89,7 @@
 				</div>
 			</div>
 		</cms:mobile>
+		<cms:raw file="parts/luckyorange.txt"/>
 	</footer>
 </document>
 
