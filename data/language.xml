@@ -1,7 +1,7 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="English" short="en">
-		<constant name="site_title">Callbox - Call Tracking Solutions</constant>
+		<constant name="site_title">Callbox</constant>
 		<constant name="copyright"><![CDATA[Copyright &copy; 2014. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
 		<!-- Header -->
 		<constant name="phone_number">09-3741111</constant>
@@ -38,9 +38,9 @@
 		<constant name="manage_calls_header">Manage Calls</constant>
 		<constant name="analyze_calls_header">Analyze Calls</constant>
 
-		<constant name="track_calls">Know which advertising is driving your calls. and something</constant>
-		<constant name="phone_calls_bottom">Get your calls to the right place quickly and something</constant>
-		<constant name="manage_calls">Keep track of calls and arm your reps with reatime caller information</constant>
+		<constant name="track_calls">Know which advertising is driving your calls.</constant>
+		<constant name="phone_calls_bottom">Get your calls to the right place quickly.</constant>
+		<constant name="manage_calls">Keep track of calls and arm your reps with reatime caller information.</constant>
 		<constant name="analyze_calls">Analyze call stats, staff performance and conversion trends.</constant>
 		<!-- End of Homepage -->
 
@@ -50,7 +50,7 @@
 
 		<constant name="plan_title">Plan</constant>
 		<constant name="silver_plan_title">Silver</constant>
-		<constant name="silver_numbers_price">numbers start at 4NIS per month</constant>
+		<constant name="silver_numbers_price">numbers start at 40NIS per month</constant>
 		<constant name="silver_calls_price">calls start at 0.40NIS</constant>
 		<constant name="silver_support">Limited Support</constant>		
 		<constant name="silver_plan_price">60NIS/mo</constant>
@@ -185,7 +185,7 @@
 	</language>
 
 	<language name="Hebrew" short="he" rtl="yes" default="yes" >
-		<constant name="site_title">Callbox - מעקב אחר שיחות טלפון</constant>
+		<constant name="site_title">Callbox</constant>
 		<constant name="copyright"><![CDATA[Copyright &copy; 2014. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
 		<!--Header -->
 		<constant name="phone_number">09-3741111</constant>
