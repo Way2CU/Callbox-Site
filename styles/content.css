@@ -1489,3 +1489,22 @@ div#header_info h1 {
 div#header_info ul li {
 	margin-bottom: 20px;
 }
+
+/**
+ * Nextcase Page
+ */
+
+
+div#content div.wrap.contact_bg div.inner_wrap  div.logo_back{
+	display: block;
+	background-image: url(../images/next_case-120x120.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin-top: 15px;
+}
