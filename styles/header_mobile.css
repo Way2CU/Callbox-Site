@@ -1,6 +1,6 @@
 /**
  * Header Mobile Style Sheet
- * Callbox 
+ * Callbox
  *
  * Copyright (c) 2014. by Way2CU
  * Author: Khalid Sawalhi
@@ -38,7 +38,7 @@ header div.inner_wrap.top_home{
 	display: block;
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 
 header div.inner_wrap.menu {
@@ -88,15 +88,15 @@ ul#language_selector li {
 ul#language_selector li a {
 	display: block;
 	width: 17px;
-	height: 13px;	
+	height: 13px;
 }
 
-ul#language_selector li.en { 
-	background-image: url(../../modules/country_list/images/4x3/us.svg);
+ul#language_selector li.en {
+	background-image: url(../images/us.svg);
 }
 
-ul#language_selector li.he { 
-	background-image: url(../../modules/country_list/images/4x3/il.svg);
+ul#language_selector li.he {
+	background-image: url(../images/il.svg);
 }
 
 ul#language_selector li.en a:hover {
@@ -434,11 +434,11 @@ body.rtl .mobile_menu li a {
 }
 
 .mobile_menu li.en a {
-	background-image: url(../../modules/country_list/images/4x3/us.svg);
+	background-image: url(../images/us.svg);
 }
 
 .mobile_menu li.he a {
-	background-image: url(../../modules/country_list/images/4x3/il.svg);
+	background-image: url(../images/il.svg);
 }
 
 .mobile_menu nav#menu a {
