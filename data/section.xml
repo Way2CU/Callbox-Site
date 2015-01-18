@@ -35,4 +35,9 @@
 			<action name="_default" file="demo.xml"/>
 		</language>
 	</section>
+	<section name="nextcase">
+		<language name="all">
+			<action name="_default" file="nextcase.xml"/>
+		</language>
+	</section>
 </document>
