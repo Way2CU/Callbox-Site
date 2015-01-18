@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="contact"/></title>
+			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
+			<cms:collection include="dialog,animation_chain"/>
+			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:raw file="parts/tagmanager.txt"/>
+			<cms:template file="parts/header.xml"/>
+			<div id="content">
+				<div class="wrap contact_bg">
+					<div class="inner_wrap">
+						<cms:desktop>
+							<div class="contact_upper">
+								<div class="computer">
+									<cms:module
+										name="articles"
+										action="show"
+										text_id="contact_us"
+										/>
+									<cms:module
+										name="contact_form"
+										action="show"
+										text_id="contact_form"
+										/>
+								</div>
+							</div>
+						</cms:desktop>
+						<cms:mobile>
+							<h1>
+								<cms:text constant="contact"/>
+							</h1>
+						</cms:mobile>
+					</div>
+				</div>
+				<cms:mobile>
+					<div class="contact_us_mobile">
+						<p>
+							<cms:module
+								name="articles"
+								action="show"
+								text_id="contact_us"
+								/>
+						</p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact_form"
+							/>
+					</div>
+				</cms:mobile>
+				<div class="wrap white">
+					<div class="inner_wrap">
+						<div class="contact">
+							<img
+								src="_BASEURL.'/site/images/logo-grey-text.svg'"
+								alt="logo"
+								cms:eval="src"
+								/>
+							<h1>
+								<cms:text constant="cta_header"/>
+							</h1>
+							<h2>
+								<cms:text constant="info_title"/>
+							</h2>
+						</div>
+					</div>
+					<!-- end of content div -->
+				</div>
+			</div>
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
