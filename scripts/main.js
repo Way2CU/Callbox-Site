@@ -23,6 +23,14 @@ function handle_window_scroll(event) {
 function on_site_load() {
 	Caracal.header = $('header');
 	$(window).scroll(handle_window_scroll);
+
+	// handle analytics event
+	$('form').on('analytics-event', function(event, data) {
+		if (!data.error)
+			dataLayer.push({
+            	'event':'leadSent'
+            });
+	});
 }
 
 $(on_site_load);
