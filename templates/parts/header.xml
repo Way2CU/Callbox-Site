@@ -9,7 +9,7 @@
 			<div id="top_menu">
 				<div class="inner_wrap menu">
 					<!-- Logo -->
-					<a href="" class="logo">
+					<a href="url_Make()" class="logo" cms:eval="href">
 						<img
 							src="_BASEURL.'/site/images/logo-white-text.svg'"
 							alt="logo"
@@ -36,7 +36,7 @@
 						</ul>
 
 						<a
-							 href="'tel:'.Language::getText('phone_number')"
+							 href="'tel:'.MainLanguageHandler::getInstance()->getText('phone_number')"
 							 cms:eval="href" 
 							 class="phone_number"
 						>
@@ -49,10 +49,10 @@
 		<cms:mobile>
 			<div class="mobile_title">
 				<a
-					href="'tel:'.Language::getText('phone_number')"
+					href="'tel:'.urlencode(Language::getText('phone_number'))"
 					cms:eval="href" 
 					class="phone"
-					/>
+					></a>
 				<img
 					src="_BASEURL.'/site/images/logo-white-text.svg'"
 					alt="logo"
@@ -87,7 +87,7 @@
 						<a href="url_Make('', 'contact')" cms:eval="href">
 							<cms:text constant="ask_for_demo"/>
 						</a>
-						<a href="#">
+						<a href="url_Make('', 'demo')" cms:eval="href">
 							<cms:text constant="try_for_free"/>
 						</a>
 				</div>
