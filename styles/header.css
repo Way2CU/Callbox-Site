@@ -221,11 +221,11 @@ ul#language_selector li a {
 }
 
 ul#language_selector li.en { 
-	background-image: url(../../modules/country_list/images/4x3/us.svg);
+	background-image: url(../images/us.svg);
 }
 
 ul#language_selector li.he { 
-	background-image: url(../../modules/country_list/images/4x3/il.svg);
+	background-image: url(../images/il.svg);
 }
 
 ul#language_selector li.en a:hover {
@@ -269,7 +269,6 @@ body.rtl header a.phone_number {
 	padding-right: 35px;
 	right: auto;
 	left: 0;
-	direction: ltr;
 
 	background-position: calc(100% - 5px) center;
 }

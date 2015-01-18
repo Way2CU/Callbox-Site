@@ -336,19 +336,31 @@ header div.inner_wrap.top_home:after {
 	width: 39px;
 
 	position: absolute;
-	left: 0px;
 	top: 10px;
 
 	background-image: url(../../system/images/mobile_menu.svg);
 	background-repeat: no-repeat;
-	background-position: -10px center;
 	background-size: 40px 40px;
 
 	transition: 0.3s all;
 }
 
-.mobile_title.menu_visible a.menu {
+body.ltr .mobile_title a.menu {
+	left: 0;
+	background-position: -10px center;
+}
+
+body.rtl .mobile_title a.menu {
+	right: 0;
+	background-position: 10px center;
+}
+
+body.ltr .mobile_title.menu_visible a.menu {
 	background-position: -30px center;
+}
+
+body.rtl .mobile_title.menu_visible a.menu {
+	background-position: 30px center;
 }
 
 .mobile_title a.phone {
@@ -357,7 +369,6 @@ header div.inner_wrap.top_home:after {
 	height: 40px;
 
 	position: absolute;
-	right: 10px;
 	top: 10px;
 
 	background-image: url(../images/icon-phone.svg);
@@ -365,6 +376,14 @@ header div.inner_wrap.top_home:after {
 	background-size: 100% 100%;
 
 	opacity: 0.7;
+}
+
+body.ltr .mobile_title a.phone {
+	right: 0px;
+}
+
+body.rtl .mobile_title a.phone {
+	left: 10px;
 }
 
 .mobile_title img {
