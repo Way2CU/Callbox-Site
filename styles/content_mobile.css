@@ -144,15 +144,15 @@ div.wrap.white div.inner_wrap div.css_sprite_container_second div{
 }
 
 div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(2){
-	background-position: -415px 0px;	
+	background-position: -415px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(3){
-	background-position: -205px 0px;	
+	background-position: -205px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:last-child{
-	background-position: 0px 0px;	
+	background-position: 0px 0px;
 }
  div.wrap.white div.inner_wrap div.css_sprite_container_second div h4{
  	display: block;
@@ -325,7 +325,7 @@ div#content div.contact_us_mobile:after {
 	content: ' ';
 	transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
-	-webkit-transform: rotate(-5deg);	
+	-webkit-transform: rotate(-5deg);
 }
 
 div#content div.contact_us_mobile div.article p {
@@ -435,7 +435,6 @@ div#content div.wrap.white div.inner_wrap div.contact h2{
 div.wrap.pricing.grey {
 	overflow:hidden;
 	position: relative;
-	height: 1850px;
 }
 
 div.wrap.pricing.grey:after {
@@ -725,14 +724,10 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_s
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(2){
-	background-color: #7D8589;
-}
-
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(3){
 	background-color: #C3922E;
 }
 
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(4){
+div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(3){
 	background-color: #3397DA;
 }
 
@@ -741,14 +736,10 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(2) {
-	color: #7D8589;
-}
-
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(3) {
 	color: #C3922E;
 }
 
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(4) {
+div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(3) {
 	color: #287FB8;
 }
 
@@ -762,7 +753,7 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td.tasks-list-mark:nth-child(2) {
-	background-image: url(../images/checkmark-silver.svg);
+	background-image: url(../images/checkmark-gold.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 
@@ -770,7 +761,7 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td.tasks-list-mark:nth-child(3) {
 
-	background-image: url(../images/checkmark-gold.svg);
+	background-image: url(../images/checkmark-blue.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 
@@ -964,7 +955,7 @@ div#content div.wrap_odd_second:after {
 	height: 217px;
 	width: 200%;
 	right: -50%;
-	
+
 	top: 880px;
 	content: ' ';
 	transform: rotate(-5deg);
@@ -1085,7 +1076,7 @@ div#content div.wrap_odd_second div.inner_wrap div.box4 p {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	color: white;
-} 
+}
 
 div#content div.wrap_odd_second div.inner_wrap div.box5 {
 	display: block;
@@ -1304,7 +1295,7 @@ body.ltr div#content div.warp.privacy {
 }
 
 body.rtl div#content div.warp.privacy:after{
-	display: block; 
+	display: block;
 	position: absolute;
 	background-color: white;
 	height: 200px;

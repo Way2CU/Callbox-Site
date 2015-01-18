@@ -24,7 +24,7 @@
 							<cms:text constant="pricing_top_text_smaller"/>
 						</h2>
 						<ul class="top_plans_container">
-							<li class="plan_box">
+							<!-- <li class="plan_box">
 								<div class="plan_box_title grey">
 									<h3><cms:text constant="silver_plan_title"/></h3>
 									<span><cms:text constant="plan_title"/></span>
@@ -37,7 +37,7 @@
 									<li style="visibility: hidden;"></li>
 								</ul>
 								<a href="url_Make('','contact')" cms:eval="href" class="silver"><cms:text constant="plan_box_button"/></a>
-							</li>
+							</li> -->
 							<li class="plan_box">
 								<div class="plan_box_title gold">
 									<h3><cms:text constant="gold_plan_title"/></h3>
@@ -48,7 +48,7 @@
 									<li><cms:text constant="gold_numbers_price"/></li>
 									<li><cms:text constant="gold_calls_price"/></li>
 									<li><cms:text constant="gold_support"/></li>
-									<li style="visibility: hidden;"></li>								
+									<li style="visibility: hidden;"></li>
 								</ul>
 								<a href="url_Make('','contact')" cms:eval="href" class="gold"><cms:text constant="plan_box_button"/></a>
 							</li>
@@ -62,7 +62,7 @@
 									<li><cms:text constant="platinum_numbers_price"/></li>
 									<li><cms:text constant="platinum_calls_price"/></li>
 									<li><cms:text constant="platinum_support"/></li>
-									<li><cms:text constant="per_subaccount_charge_platinum"/></li>			
+									<li><cms:text constant="per_subaccount_charge_platinum"/></li>
 								</ul>
 								<a href="url_Make('','contact')" cms:eval="href" class="blue"><cms:text constant="plan_box_button"/></a>
 							</li>
@@ -93,265 +93,265 @@
 							<tbody>
 								<tr class="table_special_row">
 									<th class="first_column_header"><cms:text constant="pricing_cost_and_pricing"/></th>
-									<th><cms:text constant="silver_plan_title"/></th>
+									<!-- <th><cms:text constant="silver_plan_title"/></th> -->
 									<th><cms:text constant="gold_plan_title"/></th>
 									<th><cms:text constant="platinum_plan_title"/></th>
 								</tr>
 								<tr>
 									<td><cms:text constant="monthly_subscription"/></td>
-									<td><cms:text constant="silver_plan_price"/></td>
+									<!-- <td><cms:text constant="silver_plan_price"/></td> -->
 									<td><cms:text constant="gold_plan_price"/></td>
 									<td><cms:text constant="platinum_plan_price"/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="monthly_price_tracking_number"/></td>
-									<td><cms:text constant="monthly_price_tracking_number_silver"/></td>
+									<!-- <td><cms:text constant="monthly_price_tracking_number_silver"/></td> -->
 									<td><cms:text constant="monthly_price_tracking_number_gold"/></td>
 									<td><cms:text constant="monthly_price_tracking_number_platinum"/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="per_minute_charge"/></td>
-									<td><cms:text constant="per_minute_charge_silver"/></td>
+									<!-- <td><cms:text constant="per_minute_charge_silver"/></td> -->
 									<td><cms:text constant="per_minute_charge_gold"/></td>
 									<td><cms:text constant="per_minute_charge_platinum"/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="per_subaccount_charge"/></td>
-									<td><cms:text constant="per_subaccount_charge_silver"/></td>
+									<!-- <td><cms:text constant="per_subaccount_charge_silver"/></td> -->
 									<td><cms:text constant="per_subaccount_charge_gold"/></td>
 									<td><cms:text constant="per_subaccount_charge_platinum"/></td>
 								</tr>
 								<tr class="table_special_row">
 									<th class="first_column_header"><cms:text constant="tracking_numbers"/></th>
-									<th><cms:text constant="silver_plan_title"/></th>
+									<!-- <th><cms:text constant="silver_plan_title"/></th> -->
 									<th><cms:text constant="gold_plan_title"/></th>
 									<th><cms:text constant="platinum_plan_title"/></th>
 								</tr>
 								<tr>
 									<td><cms:text constant="local_and_toll_free_numbers"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="call_recording"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="track_online_offline_sources"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="create_and_track_custom_sources"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="dynamic_number_swapping"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="whisper_plays_to_caller"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="source_announcement_whisper"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="schedule_recieving_numbers_by_time"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="ivr_menus"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr class="table_special_row">
 									<th class="first_column_header"><cms:text constant="reporting"/></th>
-									<th><cms:text constant="silver_plan_title"/></th>
+									<!-- <th><cms:text constant="silver_plan_title"/></th> -->
 									<th><cms:text constant="gold_plan_title"/></th>
 									<th><cms:text constant="platinum_plan_title"/></th>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_source_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_day_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_time_of_day_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_map_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_keyword_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_referrer_report"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="calls_by_landing_page"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="unlimited_custom_reports"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="email_reports"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="roi_reporting"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="ppc_reports"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr class="table_special_row">
 									<th class="first_column_header"><cms:text constant="customize_and_integration"/></th>
-									<th><cms:text constant="silver_plan_title"/></th>
+									<!-- <th><cms:text constant="silver_plan_title"/></th> -->
 									<th><cms:text constant="gold_plan_title"/></th>
 									<th><cms:text constant="platinum_plan_title"/></th>
 								</tr>
 								<tr>
 									<td><cms:text constant="add_unlimited_users"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="add_users_by_account"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="google_analytics_integration"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="google_adwords_integration"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="optimizely_integration"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="kissmetrics_integration"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="hubspot_integration"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="salesforce_integration"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="api_access"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="wordpress_plugin"/></td>
-									<td class="tasks-list-mark"><cms:text constant=""/></td>
+									<!-- <td class="tasks-list-mark"><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="click_to_call"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr class="table_special_row">
 									<th class="first_column_header"><cms:text constant="agency"/></th>
-									<th><cms:text constant="silver_plan_title"/></th>
+									<!-- <th><cms:text constant="silver_plan_title"/></th> -->
 									<th><cms:text constant="gold_plan_title"/></th>
 									<th><cms:text constant="platinum_plan_title"/></th>
 								</tr>
 								<tr>
 									<td><cms:text constant="agency_logo_login_page"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="view_reports_agency_level"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 								<tr>
 									<td><cms:text constant="number_of_sub_accounts"/></td>
-									<td><cms:text constant=""/></td>
+									<!-- <td><cms:text constant=""/></td> -->
 									<td><cms:text constant=""/></td>
 									<td class="tasks-list-mark"><cms:text constant=""/></td>
 								</tr>
 							</tbody>
 						</table>
-					</div>	
+					</div>
 				</div>
 				<div class="wrap white">
 					<div class="inner_wrap">

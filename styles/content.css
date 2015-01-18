@@ -173,15 +173,15 @@ div.wrap.white div.inner_wrap div.css_sprite_container_second div{
 }
 
 div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(2){
-	background-position: -415px 0px;	
+	background-position: -415px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(3){
-	background-position: -205px 0px;	
+	background-position: -205px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:last-child{
-	background-position: 0px 0px;	
+	background-position: 0px 0px;
 }
  div.wrap.white div.inner_wrap div.css_sprite_container_second div h4{
  	display: block;
@@ -825,7 +825,7 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody {
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th {
 	color:white;
-	width: 232px;
+	width: 324px;
 	font-size: 1.2em;
 }
 
@@ -839,14 +839,10 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_s
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(2){
-	background-color: #7D8589;
-}
-
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(3){
 	background-color: #C3922E;
 }
 
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(4){
+div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tr.table_special_row th:nth-child(3){
 	background-color: #3397DA;
 }
 
@@ -856,14 +852,10 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(2) {
-	color: #7D8589;
-}
-
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(3) {
 	color: #C3922E;
 }
 
-div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(4) {
+div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td:nth-child(3) {
 	color: #287FB8;
 }
 
@@ -875,7 +867,7 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 }
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td.tasks-list-mark:nth-child(2) {
-	background-image: url(../images/checkmark-silver.svg);
+	background-image: url(../images/checkmark-gold.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 
@@ -883,7 +875,7 @@ div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr t
 
 div#content div.wrap.pricing_table div.inner_wrap table#pricing_table tbody tr td.tasks-list-mark:nth-child(3) {
 
-	background-image: url(../images/checkmark-gold.svg);
+	background-image: url(../images/checkmark-blue.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 
@@ -1178,7 +1170,7 @@ body.ltr div#content div.wrap_odd_second div.inner_wrap div.box3 p{
 	display: block;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: white; 
+	color: white;
 }
 
 div#content div.wrap_odd_second div.inner_wrap div.box4 {
@@ -1202,7 +1194,7 @@ body.rtl div#content div.wrap_odd_second div.inner_wrap div.box4 p {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	color: white;
-} 
+}
 
 body.ltr div#content div.wrap_odd_second div.inner_wrap div.box4 p {
 	text-align: left;
@@ -1295,7 +1287,7 @@ div#content div.wrap.white.features div.inner_wrap div.pulling_together ul li:nt
 }
 
 div#content div.wrap.white.features div.inner_wrap div.pulling_together ul li:nth-child(3) {
-	background-image: url(../images/sales-force.png);	
+	background-image: url(../images/sales-force.png);
 }
 
 div#content div.wrap.white.features div.inner_wrap div.pulling_together ul li:nth-child(4) {
@@ -1445,7 +1437,7 @@ body.ltr div#content div.warp.privacy {
 }
 
 body.rtl div#content div.warp.privacy:after{
-	display: block; 
+	display: block;
 	position: absolute;
 	background-color: white;
 	height: 200px;
