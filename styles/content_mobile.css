@@ -839,7 +839,6 @@ body.rtl div#content div.wrap_odd {
 	background-color: white;
 	overflow: hidden;
 	position: relative;
-	height: 2000px;
 }
 
 body.ltr div#content div.wrap_odd {
