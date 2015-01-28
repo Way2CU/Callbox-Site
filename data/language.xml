@@ -25,6 +25,7 @@
 		<!-- End of Header -->
 
 		<!-- Homepage -->
+		<constant name="clients_said">Clients Said</constant>
 		<constant name="marketing">Marketing</constant>
 		<constant name="phone_calls">Phone Calls</constant>
 		<constant name="metrics">Metrics</constant>
@@ -52,7 +53,7 @@
 		<constant name="silver_plan_title">Silver</constant>
 		<constant name="silver_numbers_price">numbers start at 4NIS per month</constant>
 		<constant name="silver_calls_price">calls start at 0.40NIS</constant>
-		<constant name="silver_support">Limited Support</constant>		
+		<constant name="silver_support">Limited Support</constant>
 		<constant name="silver_plan_price">60NIS/mo</constant>
 
 		<constant name="gold_plan_title">Gold</constant>
@@ -68,7 +69,7 @@
 		<constant name="platinum_plan_price">320NIS/mo</constant>
 
 		<constant name="plan_box_button">Sign Up</constant>
-		
+
 		<constant name="price_calculator">Use our pricing calculator to estimate your monthly costs</constant>
 		<constant name="price_calculator_button">Pricing Calculator</constant>
 
@@ -204,11 +205,12 @@
 		<constant name="demo">חשבון לדוגמא</constant>
 		<constant name="language">שפה</constant>
 		<!-- End of Menu -->
-		
+
 		<constant name="info_title"><![CDATA[דעו את זהות המתקשר לבית העסק ואיזה קמפיין אחראי לשיחה - בזמן אמת]]></constant>
 		<!-- End of Header -->
 
 		<!-- Homepage -->
+		<constant name="clients_said">לקוחות מפרגנים</constant>
 		<constant name="marketing">שיווק</constant>
 		<constant name="phone_calls">שיחות טלפון</constant>
 		<constant name="metrics">מדדים</constant>
@@ -234,11 +236,11 @@
 		<constant name="pricing_top_text">בחר את התכנית המתאימה לך</constant>
 		<constant name="pricing_top_text_smaller">בטלו שדרגו או שנמכו את התכנית שלכם בכל רגע</constant>
 
-		<constant name="plan_title"></constant> 
+		<constant name="plan_title"></constant>
 		<constant name="silver_plan_title">כסף</constant>
 		<constant name="silver_numbers_price">החל מ 40 שח למספר לחודש</constant>
 		<constant name="silver_calls_price">החל מ 40 אגורות לדקה</constant>
-		<constant name="silver_support">תמיכה בנק שעות</constant>		
+		<constant name="silver_support">תמיכה בנק שעות</constant>
 		<constant name="silver_plan_price"><![CDATA[₪60 לחודש]]></constant>
 
 		<constant name="gold_plan_title">זהב</constant>
@@ -246,14 +248,14 @@
 		<constant name="gold_calls_price">החל מ 30 אגורות לדקה</constant>
 		<constant name="gold_support">תמיכה במייל ובטלפון</constant>
 		<constant name="gold_plan_price"><![CDATA[₪120 לחודש]]></constant>
-		
+
 		<constant name="platinum_plan_title">פלטינום</constant>
 		<constant name="platinum_numbers_price">החל מ 30 שח למספר לחודש</constant>
 		<constant name="platinum_calls_price">החל מ 20 אגורות לדקה</constant>
 		<constant name="platinum_support">תמיכה כוללת 24/7</constant>
 		<constant name="platinum_plan_price"><![CDATA[₪320 לחודש]]></constant>
 		<constant name="plan_box_button">הרשם</constant>
-		
+
 		<constant name="price_calculator">השתמש במחשבון שלנו על מנת להעריך את העלויות החודשיות שלך</constant>
 		<constant name="price_calculator_button">מחשבון תמחור</constant>
 
@@ -322,7 +324,7 @@
 		<constant name="number_of_sub_accounts">מספר תתי חשבונות</constant>
 		<constant name="manage_usage_cost_reporting_by_sub_account">ניהול שימוש, עלויות ודוחות של תתי חשבונות</constant>
 
-		<!-- End of Pricing Table -->	
+		<!-- End of Pricing Table -->
 		<!-- End of Pricing -->
 
 		<!-- Features -->
