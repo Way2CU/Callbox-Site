@@ -144,15 +144,15 @@ div.wrap.white div.inner_wrap div.css_sprite_container_second div{
 }
 
 div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(2){
-	background-position: -415px 0px;	
+	background-position: -415px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:nth-child(3){
-	background-position: -205px 0px;	
+	background-position: -205px 0px;
 }
 
  div.wrap.white div.inner_wrap div.css_sprite_container_second div:last-child{
-	background-position: 0px 0px;	
+	background-position: 0px 0px;
 }
  div.wrap.white div.inner_wrap div.css_sprite_container_second div h4{
  	display: block;
@@ -174,6 +174,87 @@ div.wrap.white div.inner_wrap h2{
 	color: #3B5997;
 	font-size: 1.4em;
 	text-align: center;
+}
+
+
+div.wrap.white div.inner_wrap div.testimonials_container {
+	height: 500px;
+	position: relative;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial {
+	width: 250px;
+	position: absolute;
+	left: 50%;
+	margin-left: -125px;
+	top: 30px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial.visible {
+	opacity: 1;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial p {
+	display: block;
+	margin: 0px;
+	color: #3B5997;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial img {
+	display: block;
+	padding: 10px 0px;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1) {
+	display: block;
+	border:1px solid #7E8B8C;
+	border-radius: 5px;
+	color: #7E8B8C;
+	padding: 10px;
+	position: relative;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1):after {
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	content: '';
+	width: 0;
+	height: 0;
+	z-index: 1;
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	border-top: 20px solid #7E8B8C;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(2) {
+	padding: 10px 0px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+div.wrap.white div.inner_wrap div.testimonials_container a.arrow {
+	display: block;
+	width: 60px;
+	height: 103px;
+	position: absolute;
+	left: 80%;
+	top: -75px;
+	background-image: url(../images/gallery-arrows.svg);
+	background-position: -45px 0px;
+	background-size: 103px 98px;
+	background-repeat: no-repeat;
+	transition: 0.3s all;
+}
+
+div.wrap.white div.inner_wrap div.testimonials_container a.arrow.next {
+	left: 2%;
+	background-position: 0px 0px;
 }
 
 div.wrap.white div.inner_wrap div.integration ul{
@@ -325,7 +406,7 @@ div#content div.contact_us_mobile:after {
 	content: ' ';
 	transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
-	-webkit-transform: rotate(-5deg);	
+	-webkit-transform: rotate(-5deg);
 }
 
 div#content div.contact_us_mobile div.article p {
@@ -964,7 +1045,7 @@ div#content div.wrap_odd_second:after {
 	height: 217px;
 	width: 200%;
 	right: -50%;
-	
+
 	top: 880px;
 	content: ' ';
 	transform: rotate(-5deg);
@@ -1085,7 +1166,7 @@ div#content div.wrap_odd_second div.inner_wrap div.box4 p {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	color: white;
-} 
+}
 
 div#content div.wrap_odd_second div.inner_wrap div.box5 {
 	display: block;
@@ -1304,7 +1385,7 @@ body.ltr div#content div.warp.privacy {
 }
 
 body.rtl div#content div.warp.privacy:after{
-	display: block; 
+	display: block;
 	position: absolute;
 	background-color: white;
 	height: 200px;
