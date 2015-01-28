@@ -7,7 +7,7 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
 			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
-			<cms:collection include="dialog,animation_chain"/>
+			<cms:collection include="dialog,animation_chain,page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -75,6 +75,25 @@
 							</div>
 						</div>
 						<h2>
+							<cms:text constant="clients_said"/>
+						</h2>
+						<div class="testimonials_container">
+							<cms:module
+								name="gallery"
+								action="show_image_list"
+								random="1"
+								template="parts/testimonial.xml"
+								/>
+								<a
+									href="javascript: void(0);"
+									class="arrow previous"
+									/>
+								<a
+									href="javascript: void(0);"
+									class="arrow next"
+									/>
+						</div>
+						<h2>
 							<cms:text constant="integration"/>
 						</h2>
 						<div class="integration">
@@ -97,7 +116,6 @@
 								<li></li>
 							</ul>
 						</div>
-					</div>
 				</div>
 			</div>
 			<!-- include footer-->
