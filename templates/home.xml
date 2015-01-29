@@ -73,7 +73,7 @@
 								<p><cms:text constant="analyze_calls"/></p>
 							</div>
 						</div>
-						<h2>
+						<!-- <h2>
 							<cms:text constant="testimonials_title"/>
 						</h2>
 						<div class="testimonials_container">
@@ -91,7 +91,7 @@
 									href="javascript: void(0);"
 									class="arrow next"
 									/>
-						</div>
+						</div> -->
 						<h2>
 							<cms:text constant="integration"/>
 						</h2>

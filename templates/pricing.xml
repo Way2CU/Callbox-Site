@@ -5,9 +5,7 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="pricing"/></title>
-			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
 			<cms:collection include="dialog,animation_chain"/>
-			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
