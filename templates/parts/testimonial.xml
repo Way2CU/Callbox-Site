@@ -1,0 +1,10 @@
+<document>
+	<div class="testimonial">
+			<cms:markdown param="description" multilanguage="yes"/>
+			<img
+				src="gallery::getThumbnailById($params['id'], null, 250)"
+				alt="img"
+				cms:eval="src"
+				/>
+	</div>
+</document>

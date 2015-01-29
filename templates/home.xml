@@ -6,9 +6,7 @@
 		<head>
 			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="cta_header"/></title>
 			<meta name="google-site-verification" content="Pv1YbDZKyVvZqtE4WuRYQz0MlYLaHNOZIACwH8CBcQI" />
-			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
-			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
-			<cms:collection include="dialog,animation_chain"/>
+			<cms:collection include="dialog,animation_chain,page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -74,6 +72,25 @@
 								<h4><cms:text constant="analyze_calls_header"/></h4>
 								<p><cms:text constant="analyze_calls"/></p>
 							</div>
+						</div>
+						<h2>
+							<cms:text constant="testimonials_title"/>
+						</h2>
+						<div class="testimonials_container">
+							<cms:module
+								name="gallery"
+								action="show_image_list"
+								random="1"
+								template="parts/testimonial.xml"
+								/>
+								<a
+									href="javascript: void(0);"
+									class="arrow previous"
+									/>
+								<a
+									href="javascript: void(0);"
+									class="arrow next"
+									/>
 						</div>
 						<h2>
 							<cms:text constant="integration"/>
