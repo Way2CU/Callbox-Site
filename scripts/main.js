@@ -32,17 +32,6 @@ function on_site_load() {
             });
 	});
 
-	// Testimonials Home Page Clients Said
-
-		if ($('div.testimonial').length > 0) {
-			Caracal.testimonial_pages = new PageControl('div.testimonials_container', 'div.testimonial')
-				.setInterval(10000)
-				.setWrapAround(true)
-				.setPauseOnHover(true)
-				.attachNextControl($('div.testimonials_container a.arrow.next'))
-				.attachPreviousControl($('div.testimonials_container a.arrow.previous'));
-		}
-
 }
 
 $(on_site_load);

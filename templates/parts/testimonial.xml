@@ -2,7 +2,7 @@
 	<div class="testimonial">
 			<cms:markdown param="description" multilanguage="yes"/>
 			<img
-				src="gallery::getThumbnailById($params['id'], null, 250)"
+				src="$params['image']"
 				alt="img"
 				cms:eval="src"
 				/>
