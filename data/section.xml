@@ -35,9 +35,19 @@
 			<action name="_default" file="demo.xml"/>
 		</language>
 	</section>
-	<section name="nextcase">
+	<section name="google-partners">
 		<language name="all">
-			<action name="_default" file="nextcase.xml"/>
+			<action name="_default" file="google-partners.xml"/>
+		</language>
+	</section>
+	<section name="coupon">
+		<language name="all">
+			<action name="_default" file="coupon.xml"/>
+		</language>
+	</section>
+	<section name="COUPON">
+		<language name="all">
+			<action name="_default" file="coupon.xml"/>
 		</language>
 	</section>
 </document>
