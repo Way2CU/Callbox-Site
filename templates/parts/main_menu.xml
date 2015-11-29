@@ -44,7 +44,7 @@
 		</a>
 	</cms:desktop>
 	<a
-		href="url_Make('get', 'downloads', array('id', 2))"
+		href="url_Make('get', 'downloads', array('id', $language == 'he' ? 5 : 4))"
 		cms:eval="href"
 		>
 		<cms:text constant="terms"/>
