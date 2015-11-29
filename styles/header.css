@@ -39,7 +39,7 @@ header.detached div#top_menu {
 	left: 0px;
 
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-	
+
 	z-index: 10000;
 }
 
@@ -56,7 +56,7 @@ header div.inner_wrap.top_home{
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 
 header div.inner_wrap.menu {
@@ -83,7 +83,7 @@ header div.inner_wrap div.menu img {
 nav#main {
 	display: inline-block;
 	vertical-align: top;
-	
+
 	position: relative;
 	top: 10px;
 
@@ -217,14 +217,14 @@ body.rtl ul#language_selector li {
 ul#language_selector li a {
 	display: block;
 	width: 17px;
-	height: 13px;	
+	height: 13px;
 }
 
-ul#language_selector li.en { 
+ul#language_selector li.en {
 	background-image: url(../images/us.svg);
 }
 
-ul#language_selector li.he { 
+ul#language_selector li.he {
 	background-image: url(../images/il.svg);
 }
 
@@ -375,7 +375,7 @@ header div.inner_wrap.top_home h1{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	width: 550px;
+	width: 620px;
 }
 
 header div.inner_wrap.top_home h2{
@@ -465,4 +465,8 @@ header div.inner_wrap.top_home:after {
 	transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
 	-webkit-transform: rotate(-5deg);
+}
+
+body.ltr header div.inner_wrap.top_home:after {
+	top: 505px;
 }
