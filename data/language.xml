@@ -75,6 +75,7 @@
 		<constant name="price_calculator_button">Pricing Calculator</constant>
 
 		<constant name="price_box_info_title">All of our plans include these great features</constant>
+		<constant name="maam">Rates do not include VAT when applicable</constant>
 
 		<!-- Pricing Table -->
 		<constant name="pricing_cost_and_pricing">Cost and Pricing</constant>
@@ -184,6 +185,10 @@
 		<constant name="privacy">Privacy Policy</constant>
 		<constant name="cookies">Cookie Policy</constant>
 		<!-- End of footer -->
+
+		<!-- Google partners/ Coupon page -->
+		<constant name="googlepartners">Google Partners</constant>
+		<constant name="coupon">250 Free Minutes Coupon</constant>
 	</language>
 
 	<language name="Hebrew" short="he" rtl="yes" default="yes" >
@@ -191,7 +196,7 @@
 		<constant name="copyright"><![CDATA[Copyright &copy; 2014. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
 		<!--Header -->
 		<constant name="phone_number">09-3741111</constant>
-		<constant name="cta_header">הפתרון האולטימטיבי למעקב אחר שיחות טלפון</constant>
+		<constant name="cta_header">הפתרון האולטימטיבי למדידת אפקטיביות הפרסום שלכם</constant>
 
 		<constant name="try_for_free">חשבון לדוגמא</constant>
 		<constant name="ask_for_demo">לתיאום הדגמה</constant>
@@ -262,7 +267,8 @@
 		<constant name="price_calculator_button">מחשבון תמחור</constant>
 
 		<constant name="price_box_info_title">כל התוכניות שלנו כוללות בתוכן את האפשרויות הבאות</constant>
-				<!-- Pricing Table -->
+		<constant name="maam">המחיר אינו כולל מע"מ</constant>
+		<!-- Pricing Table -->
 		<constant name="pricing_cost_and_pricing">עלות ותמחור</constant>
 		<constant name="monthly_subscription">מנוי חודשי</constant>
 
@@ -373,5 +379,10 @@
 		<constant name="privacy">מדיניות פרטיות</constant>
 		<constant name="cookies">Cookie Policy</constant>
 		<!-- End of footer -->
+
+		<!-- Google partners/ Coupon page -->
+		<constant name="googlepartners">שותפי גוגל</constant>
+		<constant name="coupon">קופון 250 דקות מתנה</constant>
+
 	</language>
 </document>
