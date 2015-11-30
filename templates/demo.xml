@@ -11,6 +11,7 @@
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 		<body style="padding: 0px; margin: 0px;">
+			<cms:raw file="parts/tagmanager.txt"/>
 			<iframe
 				width="100%"
 				height="100%"

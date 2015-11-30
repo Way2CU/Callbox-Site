@@ -4,14 +4,13 @@
 	<cms:var name="_DOCTYPE"/>
 	<html lang="$language" cms:eval="lang">
 		<head>
-			<title><cms:text constant="site_title"/></title>
-			<cms:script src="_BASEURL.'/site/scripts/gallery.js'" cms:eval="src"/>
+			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="terms"/></title>
 			<cms:collection include="dialog,animation_chain"/>
-			<cms:script src="_BASEURL.'/site/scripts/contact.js'" cms:eval="src"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:raw file="parts/tagmanager.txt"/>
 			<cms:template file="parts/header.xml"/>
 			<div id="content">
 				<div class="wrap">

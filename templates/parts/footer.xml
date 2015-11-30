@@ -10,7 +10,7 @@
 					</h5>
 					<a
 						href="_BASEURL.'/demo'"
-						cms:eval="href" 
+						cms:eval="href"
 						class=""
 						>
 						<cms:text constant="try_button"/>

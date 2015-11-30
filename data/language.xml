@@ -1,7 +1,7 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="English" short="en">
-		<constant name="site_title">Callbox - Call Tracking Solutions</constant>
+		<constant name="site_title">Callbox</constant>
 		<constant name="copyright"><![CDATA[Copyright &copy; 2014. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
 		<!-- Header -->
 		<constant name="phone_number">09-3741111</constant>
@@ -30,6 +30,8 @@
 		<constant name="metrics">Metrics</constant>
 		<constant name="insights">Insights</constant>
 
+		<constant name="testimonials_title">What our clients say?</constant>
+
 		<constant name="complete_solution">Your complete call tracking solution</constant>
 		<constant name="integration">Integrates with all your favorite services</constant>
 
@@ -38,9 +40,9 @@
 		<constant name="manage_calls_header">Manage Calls</constant>
 		<constant name="analyze_calls_header">Analyze Calls</constant>
 
-		<constant name="track_calls">Know which advertising is driving your calls. and something</constant>
-		<constant name="phone_calls_bottom">Get your calls to the right place quickly and something</constant>
-		<constant name="manage_calls">Keep track of calls and arm your reps with reatime caller information</constant>
+		<constant name="track_calls">Know which advertising is driving your calls.</constant>
+		<constant name="phone_calls_bottom">Get your calls to the right place quickly.</constant>
+		<constant name="manage_calls">Keep track of calls and arm your reps with reatime caller information.</constant>
 		<constant name="analyze_calls">Analyze call stats, staff performance and conversion trends.</constant>
 		<!-- End of Homepage -->
 
@@ -50,9 +52,9 @@
 
 		<constant name="plan_title">Plan</constant>
 		<constant name="silver_plan_title">Silver</constant>
-		<constant name="silver_numbers_price">numbers start at 4NIS per month</constant>
+		<constant name="silver_numbers_price">numbers start at 40NIS per month</constant>
 		<constant name="silver_calls_price">calls start at 0.40NIS</constant>
-		<constant name="silver_support">Limited Support</constant>		
+		<constant name="silver_support">Limited Support</constant>
 		<constant name="silver_plan_price">60NIS/mo</constant>
 
 		<constant name="gold_plan_title">Gold</constant>
@@ -68,11 +70,12 @@
 		<constant name="platinum_plan_price">320NIS/mo</constant>
 
 		<constant name="plan_box_button">Sign Up</constant>
-		
+
 		<constant name="price_calculator">Use our pricing calculator to estimate your monthly costs</constant>
 		<constant name="price_calculator_button">Pricing Calculator</constant>
 
 		<constant name="price_box_info_title">All of our plans include these great features</constant>
+		<constant name="maam">Rates do not include VAT when applicable</constant>
 
 		<!-- Pricing Table -->
 		<constant name="pricing_cost_and_pricing">Cost and Pricing</constant>
@@ -182,14 +185,18 @@
 		<constant name="privacy">Privacy Policy</constant>
 		<constant name="cookies">Cookie Policy</constant>
 		<!-- End of footer -->
+
+		<!-- Google partners/ Coupon page -->
+		<constant name="googlepartners">Google Partners</constant>
+		<constant name="coupon">250 Free Minutes Coupon</constant>
 	</language>
 
 	<language name="Hebrew" short="he" rtl="yes" default="yes" >
-		<constant name="site_title">Callbox - מעקב אחר שיחות טלפון</constant>
+		<constant name="site_title">Callbox</constant>
 		<constant name="copyright"><![CDATA[Copyright &copy; 2014. by Callbox. Designed and developed by <a href="http://way2cu.com">Way2CU</a>.]]></constant>
 		<!--Header -->
 		<constant name="phone_number">09-3741111</constant>
-		<constant name="cta_header">הפתרון האולטימטיבי למעקב אחר שיחות טלפון</constant>
+		<constant name="cta_header">הפתרון האולטימטיבי למדידת אפקטיביות הפרסום שלכם</constant>
 
 		<constant name="try_for_free">חשבון לדוגמא</constant>
 		<constant name="ask_for_demo">לתיאום הדגמה</constant>
@@ -204,7 +211,7 @@
 		<constant name="demo">חשבון לדוגמא</constant>
 		<constant name="language">שפה</constant>
 		<!-- End of Menu -->
-		
+
 		<constant name="info_title"><![CDATA[דעו את זהות המתקשר לבית העסק ואיזה קמפיין אחראי לשיחה - בזמן אמת]]></constant>
 		<!-- End of Header -->
 
@@ -213,6 +220,8 @@
 		<constant name="phone_calls">שיחות טלפון</constant>
 		<constant name="metrics">מדדים</constant>
 		<constant name="insights">תובנות</constant>
+
+		<constant name="testimonials_title">מה הלקוחות אומרים?</constant>
 
 		<constant name="complete_solution">הפתרון המושלם למעקב אחר שיחות</constant>
 		<constant name="integration">משתלב עם כל הכלים המוכרים</constant>
@@ -234,11 +243,11 @@
 		<constant name="pricing_top_text">בחר את התכנית המתאימה לך</constant>
 		<constant name="pricing_top_text_smaller">בטלו שדרגו או שנמכו את התכנית שלכם בכל רגע</constant>
 
-		<constant name="plan_title"></constant> 
+		<constant name="plan_title"></constant>
 		<constant name="silver_plan_title">כסף</constant>
 		<constant name="silver_numbers_price">החל מ 40 שח למספר לחודש</constant>
 		<constant name="silver_calls_price">החל מ 40 אגורות לדקה</constant>
-		<constant name="silver_support">תמיכה בנק שעות</constant>		
+		<constant name="silver_support">תמיכה בנק שעות</constant>
 		<constant name="silver_plan_price"><![CDATA[₪60 לחודש]]></constant>
 
 		<constant name="gold_plan_title">זהב</constant>
@@ -246,19 +255,20 @@
 		<constant name="gold_calls_price">החל מ 30 אגורות לדקה</constant>
 		<constant name="gold_support">תמיכה במייל ובטלפון</constant>
 		<constant name="gold_plan_price"><![CDATA[₪120 לחודש]]></constant>
-		
+
 		<constant name="platinum_plan_title">פלטינום</constant>
 		<constant name="platinum_numbers_price">החל מ 30 שח למספר לחודש</constant>
 		<constant name="platinum_calls_price">החל מ 20 אגורות לדקה</constant>
 		<constant name="platinum_support">תמיכה כוללת 24/7</constant>
 		<constant name="platinum_plan_price"><![CDATA[₪320 לחודש]]></constant>
 		<constant name="plan_box_button">הרשם</constant>
-		
+
 		<constant name="price_calculator">השתמש במחשבון שלנו על מנת להעריך את העלויות החודשיות שלך</constant>
 		<constant name="price_calculator_button">מחשבון תמחור</constant>
 
 		<constant name="price_box_info_title">כל התוכניות שלנו כוללות בתוכן את האפשרויות הבאות</constant>
-				<!-- Pricing Table -->
+		<constant name="maam">המחיר אינו כולל מע"מ</constant>
+		<!-- Pricing Table -->
 		<constant name="pricing_cost_and_pricing">עלות ותמחור</constant>
 		<constant name="monthly_subscription">מנוי חודשי</constant>
 
@@ -322,7 +332,7 @@
 		<constant name="number_of_sub_accounts">מספר תתי חשבונות</constant>
 		<constant name="manage_usage_cost_reporting_by_sub_account">ניהול שימוש, עלויות ודוחות של תתי חשבונות</constant>
 
-		<!-- End of Pricing Table -->	
+		<!-- End of Pricing Table -->
 		<!-- End of Pricing -->
 
 		<!-- Features -->
@@ -369,5 +379,10 @@
 		<constant name="privacy">מדיניות פרטיות</constant>
 		<constant name="cookies">Cookie Policy</constant>
 		<!-- End of footer -->
+
+		<!-- Google partners/ Coupon page -->
+		<constant name="googlepartners">שותפי גוגל</constant>
+		<constant name="coupon">קופון 250 דקות מתנה</constant>
+
 	</language>
 </document>
